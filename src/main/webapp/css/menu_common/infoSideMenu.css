@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+
+/* 사이드 메뉴 */
+.lnbArea {
+	width:240px;
+	float: left;
+}
+
+/* lnbMenu */
+.lnbMenu {
+	width: 216px;
+	border: #ede5d8 solid 1px;
+	background: #f1e3c4;
+	padding: 23px;
+	margin:0;
+}
+
+/* 소개메뉴1 */
+.lnbMenu li {
+	margin: 0 0 26px 0;
+}
+
+
+
+ .subBody {
+	min-width: 1200px;
+	overflow :auto;
+} 
+
+.contain{
+	padding-top:55px;
+}
+.contain .container {
+	width: 1200px;
+	min-height: 500px; 
+	margin: auto;
+	zoom: 1;
+	margin: 0 auto 100px auto;
+}
+
+.mypageBody .contain .container .contents {
+	margin: 0;
+	width: 866px;
+}
+
+.mypageBody .contents {
+	
+}
+
+.contents {
+	float: right;
+	width: 866px;
+	padding: 0;
+	background: #FFF;
+	min-height: 440px;
+}
+
+/* 헤드타이틀 */
+.contents .headTit {
+	position: relative;
+	padding: 0px;
+	margin: 0 0 0px 0;
+	z-index: 8;
+	height: 47px;
+	border-bottom: #432c10 solid 5px;
+	width: 866px;
+}
+
+#intro{
+	font-size: 18pt;
+	font-weight:normal;
+	margin: 0;
+}
+
+#hr{
+	border-width: 3px;
+	border-color: #664B00;
+	margin:12px 0 29px 0;
+}
+
+.lnbMenu ul{
+	padding: 0 0 0 10px;
+}
+.lnbMenu ul li{
+	list-style: none;
+	line-height: 300%;
+	margin: 0;
+}
+
+.lnbMenu ul li a{
+	text-decoration: none;
+	color: #664B00;
+}
+
+.lnbMenu ul li a:hover{
+	text-decoration: underline;
+}

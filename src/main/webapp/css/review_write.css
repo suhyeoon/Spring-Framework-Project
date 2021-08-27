@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+div.point1{
+        	background:url('../images/products/star_off.png') no-repeat;
+        	width:70px;
+        	height:15px;
+   			}
+div.point1 div.point2{
+        	overflow:hidden;
+        	float:left;
+    		}
+#b1{
+	display:inline;
+	margin-left:-30%;
+}
+#star{
+	width:400px;
+	height:50px;
+}
+
+#star ul li{
+	width:70px;
+	list-style:none;
+}
+
+#star ul li a{
+	text-decoration:none;
+	width:70px;
+	display:block;
+	color:red;
+}
+
+#star ul li ul{
+	visibility:hidden;
+	width:70px;
+	padding:0;
+}
+
+#star ul li ul li{
+	list-style:none;
+	width:70px;
+}
+
+#star ul li ul li a{
+	display:block;
+	width:70px;
+	text-align:center;
+	text-decoration:none;
+	color:blue;
+}
+
+#star ul li:hover > ul{
+	visibility:visible;
+}
+#td1{
+	font-weight:bold;
+}
+
+

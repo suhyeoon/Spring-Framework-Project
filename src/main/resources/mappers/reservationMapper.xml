@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="spring.web.mapper.ReservationMapper">
+
+	<!-- 이곳에 접근하고자 하는 경우 namespace.id 로 접근한다. -->
+	<!-- resultType은 자바의 타입과 매핑되는 것을 작성한다. 아래의 selectOne 은 spring.web.model.Member과 매핑 -->
+	<!-- http://www.mybatis.org/mybatis-3/ko/configuration.html#typeAliases 참조 -->
+	<select id="selectRoomAll" resultType="spring.web.model.Reservation">
+		select roomGrade, roomLevel, price from roomdata 
+		where roomNo not in(select roomNo from reservation where isCanceled = 0 
+		and startDate between #{startDate} and #{endDate}
+		or endDate between #{startDate} and #{endDate})
+		and roomNo not in(select roomNo from stay where 
+		startDate between #{startDate} and #{endDate}
+		or endDate between #{startDate} and #{endDate})
+		group by roomGrade,roomLevel;
+	</select>
+	
+	<select id="selectRoomType" resultType="spring.web.model.Reservation">
+		select * from roomdata 
+		where roomNo not in(select roomNo from reservation where isCanceled = 0 
+		and startDate between #{startDate} and #{endDate}
+		or endDate between #{startDate} and #{endDate})
+		and roomNo not in(select roomNo from stay where 
+		startDate between #{startDate} and #{endDate}
+		or endDate between #{startDate} and #{endDate})
+		and roomGrade=#{roomGrade} and roomLevel=#{roomLevel}
+		group by roomType, roomView;
+	</select>
+	
+	<select id="selectPackageAll" resultType="spring.web.model.Reservation">
+		select r.roomGrade,r.roomLevel, p.price, p.name
+		from roomData r inner join packagedata p 
+		on r.roomGrade = p.roomGrade and r.roomLevel = p.roomLevel
+		and r.roomType = p.roomType and r.roomView = p.roomView
+		where  (#{startDate} between startDate and endDate
+		and #{endDate} between startDate and endDate)
+		and r.roomNo not in(select roomNo from reservation where isCanceled = 0 
+		and startDate between #{startDate} and #{endDate}
+		or endDate between #{startDate} and #{endDate})
+		and r.roomNo not in(select roomNo from stay where
+		startDate between #{startDate} and #{endDate}
+		or endDate between #{startDate} and #{endDate})
+		group by r.roomGrade,r.roomLevel;
+	</select>
+	
+	<select id="selectPackageType" resultType="spring.web.model.Reservation">
+		select p.packageNo, p.name, p.roomGrade, p.roomLevel, p.roomType, p.roomView, p.price
+		from roomData r inner join packagedata p 
+		on r.roomGrade = p.roomGrade and r.roomLevel = p.roomLevel
+		and r.roomType = p.roomType and r.roomView = p.roomView
+		where  (#{startDate} between startDate and endDate
+		and #{endDate} between startDate and endDate)
+		and r.roomNo not in(select roomNo from reservation where isCanceled = 0 
+		and startDate between #{startDate} and #{endDate}
+		or endDate between #{startDate} and #{endDate})
+		and r.roomNo not in(select roomNo from stay where
+		startDate between #{startDate} and #{endDate}
+		or endDate between #{startDate} and #{endDate})
+		and r.roomGrade=#{roomGrade} and r.roomLevel=#{roomLevel} and p.name=#{name}
+		group by r.roomType, r.roomView;
+	</select>
+	
+	<select id="selectRoom" resultType="spring.web.model.Reservation">
+		select roomNo, floor from roomdata 
+		where roomNo not in(select roomNo from reservation where isCanceled = 0 
+		and startDate between #{startDate} and #{endDate}
+		or endDate between #{startDate} and #{endDate})
+		and roomNo not in(select roomNo from stay where
+		startDate between #{startDate} and #{endDate}
+		or endDate between #{startDate} and #{endDate})
+		and roomGrade=#{roomGrade} and roomLevel=#{roomLevel}
+		and roomType=#{roomType} and roomView=#{roomView} limit 1;
+	</select>
+	
+	<insert id="insertReservation">
+		insert into reservation(id, roomNo, packageNo, startDate, endDate, dateCnt, 
+		addBed, adultBreakfast, childBreakfast, price, adultCnt, childCnt, memo, card,
+		cardNum, cardEndDate, isCanceled, reservationDate)
+		values( #{id} , #{roomNo}, #{packageNo}, #{startDate}, #{endDate}, #{dateCnt},
+				#{addBed}, #{adultBreakfast}, #{childBreakfast}, #{price}, #{adultCnt},
+				#{childCnt}, #{memo}, #{card}, #{cardNum}, #{cardEndDate}, 0, sysdate())
+	</insert>
+	
+	<select id="selectReservation" resultType="spring.web.model.Reservation">
+		select r.no, p.name, r.startDate, r.endDate, r.price, d.roomGrade, 
+		d.roomLevel, d.roomType, d.roomView 
+		from reservation r 
+		inner join roomData d on r.roomNo = d.roomNo
+		left outer join packageData p on r.packageNo = p.packageNo
+		where r.id=#{id} and r.isCanceled = 0 and r.startDate > date_format(sysdate(),'YYYY-mm-DD');
+	</select>
+	
+	<select id="selectReservationDetail" resultType="spring.web.model.Reservation">
+		select r.no, p.name, r.startDate, r.endDate, r.price, d.roomGrade, 
+		d.roomLevel, d.roomType, d.roomView, r.dateCnt, r.adultCnt, r.childCnt,
+		r.addBed, r.adultBreakfast, r.childBreakfast, r.memo, r.reservationDate,
+		s.name card, r.cardNum, r.cardEndDate, r.roomNo, p.packageNo
+		from reservation r 
+		inner join roomData d on r.roomNo = d.roomNo
+        inner join code_small s on r.card = s.codename_small
+		left outer join packageData p on r.packageNo = p.packageNo
+		where r.no=#{no};
+	</select>
+
+	<select id="roomPrice" resultType="String">
+		select price 
+		from roomData 
+		where roomNo = #{roomNo}
+	</select>
+	
+	<select id="packagePrice" resultType="String">
+		select price 
+		from packageData 
+		where packageNo = #{packageNo}
+	</select>
+	
+	<update id="reservationCancel">
+		update reservation
+		set isCanceled = 1
+		where no = #{no}
+	</update>
+	
+</mapper>

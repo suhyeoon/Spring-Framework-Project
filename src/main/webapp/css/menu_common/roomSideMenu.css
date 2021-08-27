@@ -1,0 +1,171 @@
+@CHARSET "UTF-8";
+
+.lnbArea .lnbMenu>.tit {
+    margin: 0 0 29px 0;
+    height: 53px;
+    background: url(../../images/ko/jeju/main/lnbTitle.gif);
+    display: block;
+    text-indent: -9999%;
+    overflow: hidden;
+}
+.lnbArea{
+	width:240px;
+	margin:0;
+	float:left;
+}
+
+.lnbMenu {
+    width: 216px;
+    border: #ede5d8 solid 1px;
+    background: #f1e3c4;
+    padding: 23px;
+    margin: 0 0 30px 0;
+}
+.lnbAreaAcmd .lnbMenu .tit {
+    background-position: 0 -100px;
+}
+.lnbAreaAcmd{
+	width:240px;
+	margin:0;
+}
+
+.demo .item {
+	float: left;
+    width: 866px;
+    padding: 0;
+    margin-left:70px;
+    background: #FFF;
+    min-height: 440px;
+}
+
+.demo img {
+	float: left;
+	margin-bottom:10px;
+}
+
+.demo .clearfix {
+	clear: both;
+	margin-top: 10px;
+}
+
+.item .location {
+    float: right;
+    height: 20px;
+    padding: 9px 0 0 0;
+    margin: 0 0 -30px 0;
+    overflow: hidden;
+    z-index: 9;
+    position: relative;
+}
+
+.item .headTit {
+    position: relative;
+    padding: 0px;
+    margin: 0 0 0px 0;
+    z-index: 8;
+    height: 47px;
+    border-bottom: #432c10 solid 5px;
+    width: 866px;
+}
+
+.item .headTit .tit {
+    font-size: 0 !important;
+    line-height: 100%;
+}
+
+.demo .headTit .tit {
+    float: left;
+    width: 430px;
+    height: 35px;
+    font-size: 20px;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.content-slider li {
+	background-color: #ed3020;
+	text-align: center;
+	color: #FFF;
+}
+
+.content-slider h3 {
+	margin: 0;
+	padding: 70px 0;
+}
+
+.printArea img{
+float: right;
+}
+
+.demo {
+	width: 1200px;
+	height: 1500px;
+    min-height: 500px;
+    margin: auto;
+    zoom: 1;
+    margin: 0 auto 100px auto;
+    padding: 55px 0 0 0;
+}
+
+.rightArea li a img {
+    vertical-align: top;
+    margin-left: 0px;
+}
+
+
+#room{
+	font-size: 18pt;
+	font-weight:normal;
+	margin: 0;
+	text-align: left;
+}
+
+#bigTitle{
+	font-size: 12pt;
+	
+}
+#hr{
+	border-width: 3px;
+	border-color: #664B00;
+	margin:12px 0 29px 0;
+}
+
+#hr2{
+	border:1px dashed black;
+	margin:0 0 10px 0;
+}
+.lnbMenu ul{
+	padding: 0px;
+}
+.lnbMenu ul li{
+	list-style: none;
+	line-height: 300%;
+	margin: 0;
+	color: #664B00;
+}
+.lnbMenu li li{
+	height: 24px;
+}
+.lnbMenu li li a{
+	text-decoration: none;
+	background: none;
+	color: #664B00;
+	overflow: visible;
+	text-indent:0;
+	text-align: left;
+	font-size:10pt;
+}
+
+.lnbMenu li li a:hover{
+	text-decoration: underline;
+}
+.lnbMenu li li span{
+	padding-left: 15px;
+}
+
+#superLi{
+	padding-left:10px;
+	margin-top:30px;
+	text-align: left;
+	
+}

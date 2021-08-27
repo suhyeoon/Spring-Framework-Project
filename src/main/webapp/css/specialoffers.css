@@ -1,0 +1,745 @@
+/* offers*/
+
+.ctnSpOffer{}
+.ctnSpOffer .icoPack {}
+.ctnSpOffer .icoPack .icoBox{ display:inline-block;padding: 0 10px;vertical-align:middle;height: 23px;line-height: 24px;background: #f4eee3;color: #856f56;border: 2px solid #e3d6c6;background: #f4eee3 }
+.ctnSpOffer .icoPack .icoBox:before{content: '';display: inline-block;width: 11px;height: 8px;background: url(../../images/ko/jeju/specialoffers/icoBoxCheck.gif) no-repeat;margin-right: 5px;}
+.ctnSpOffer .icoPack .icoBox.on{ border: 2px solid #9a8268;}
+.ctnSpOffer .icoPack .icoBox.on:before{background: url(../../images/ko/jeju/specialoffers/icoBoxCheck.gif) no-repeat 0 bottom;}
+
+/*Package*/
+.ctnSpOffer.ctnPackage{margin: 0 auto;width: 1300px;}
+.ctnSpOffer.ctnPackage .topMsg{ background:url(../../images/ko/jeju/specialoffers/packageTopMsg.gif) no-repeat; width:531px; height:41px; margin:0 0 10px 0; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnPackage .schBox{ position: relative;padding:19px 190px 9px 35px; margin:30px 0 50px 0; border:#e3d6c6 solid 1px; zoom:1;min-height: 100px;}
+.ctnSpOffer.ctnPackage .schBox:after{clear:both;content:"";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.ctnSpOffer.ctnPackage .schBox .date{ display:inline; padding:7px 0 0 0; margin:0 30px 0 0;}
+.ctnSpOffer.ctnPackage .schBox .date .name{ width:66px; height:27px; background:url(../../images/ko/jeju/specialoffers/packageLabelH1.gif) no-repeat; vertical-align:middle; display:inline-block; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnPackage .schBox .date label{ position:absolute; left:-9999%;}
+.ctnSpOffer.ctnPackage .schBox .date input.dateStart,
+.ctnSpOffer.ctnPackage .schBox .date input.dateEnd{ width:112px;}
+.ctnSpOffer.ctnPackage .schBox .schType{display: inline-block;}
+.ctnSpOffer.ctnPackage .schBox .schType span{color: #666;}
+.ctnSpOffer.ctnPackage .schBox .schType .type{width:70px; height:27px; background:url(../../images/ko/jeju/specialoffers/packageLabelH3.gif) no-repeat; vertical-align:middle; display:inline-block; line-height:100px; overflow:hidden;}
+
+.ctnSpOffer.ctnPackage .schBox .opt{overflow: hidden;margin-top: 20px;padding-top: 20px;border-top: 1px solid #eceae1;}
+.ctnSpOffer.ctnPackage .schBox .opt .name{ float: left;width:70px; height:27px; background:url(../../images/ko/jeju/specialoffers/packageLabelH2.gif) no-repeat; vertical-align:top; display:inline-block; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnPackage .schBox .opt .icoPack{float: left;display:inline-block; vertical-align:middle; zoom:1; *display:inline;width: 565px;}
+.ctnSpOffer.ctnPackage .schBox .opt .icoPack li{float:left; margin:0 10px 10px 0;}
+.ctnSpOffer.ctnPackage .schBox .opt .icoPack img{ vertical-align:middle;}
+
+
+
+.ctnSpOffer.ctnPackage .btnList{ display:inline-block;position: absolute;top: 48px;right: 40px;padding-top: 0;}
+.ctnSpOffer.ctnPackage .btnList .btnSch{ background:url(../../images/ko/jeju/specialoffers/packageBtnSch.gif) no-repeat; width:110px; height:34px; vertical-align:middle; display:inline-block; line-height:200px; overflow:hidden; }
+.ctnSpOffer.ctnPackage .btnList .btnListL{float:right;}
+.ctnSpOffer.ctnPackage .btnList .btnGoPkgList{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnGoList.gif) no-repeat; width:86px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnPackage .btnList .btnReservation{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnRsv.gif) no-repeat; width:90px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+
+
+.ctnSpOffer.ctnPackage .packageWrap{}
+.ctnSpOffer .bbsTotal{ overflow:hidden; margin:0 0 40px 0; padding:0 0 15px 0; border-bottom:#a78f77 solid 3px;}
+.ctnSpOffer .bbsTotal .count{ float:left;margin: 10px 0 0;color: #444;}
+.ctnSpOffer .bbsTotal .tabMemCate{ float:right;}
+.ctnSpOffer .bbsTotal .tabMemCate div.selector span{color: #666;}
+.ctnSpOffer .tabMemCate li a.on{ font-weight:bold}
+.ctnSpOffer .tabMemCate li.first a{ background:none;}
+.ctnSpOffer .packList { overflow:hidden;}
+.ctnSpOffer .packList .list { overflow:hidden;zoom:1; vertical-align:middle;}
+.ctnSpOffer .packList .list>li{margin-bottom: 40px;padding-bottom: 40px;border-bottom: 1px solid #eceae1;}
+.ctnSpOffer .packList .list .packBox{ position:relative; display:block; zoom:1; vertical-align:middle;}
+.ctnSpOffer .packList .list .packBox .box{padding:0px; position:relative; overflow: hidden; }
+.ctnSpOffer .packList .list .packBox .box .photo{float: left;width: 270px;margin:0 40px 0 0;position: relative;}
+.ctnSpOffer .packList .list .packBox .box .photo .img{ vertical-align:middle;width: 270px;height: 150px;}
+.ctnSpOffer .packList .list .packBox .box .packDesc{float: left;width: 556px;}
+.ctnSpOffer .packList .list .packBox .box .packDesc .tit,
+.ctnSpOffer .packList .list .packBox .box .packDesc .tit a{ font-size:16px; font-weight:bold;  color:#856f56; margin:0 0 12px 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.ctnSpOffer .packList .list .packBox .box .packDesc .tit a:hover{text-decoration:underline;}
+.ctnSpOffer .packList .list .packBox .box .packDesc .date{ margin-bottom: 15px;padding-bottom: 13px; color: #444;border-bottom: 1px dotted #bfbfbf;}
+.ctnSpOffer .packList .list .packBox .box .packDesc .price{font-weight:bold;color: #444;}
+.ctnSpOffer .packList .list .packBox .box .packOptList{margin: 20px 0 0 }
+.ctnSpOffer .packList .list .packBox .box .packOptList span{display: inline-block;height: 25px;line-height: 26px;border: 1px solid #e3d6c6;padding: 0 10px;border: 1px solid #e3d6c6;background: #f4eee3;color: #856f56;}
+.ctnSpOffer .packList .list .packBox .box .packOptList span+span{margin-left: 1px;}
+.ctnSpOffer .packList .list .packBox .box .packDesc .packDescList{margin-bottom: 15px;color: #444;}
+.ctnSpOffer .packList .list .packBox .box .packDesc .packDescList li{ background:url(../../images/ko/jeju/main/bul02.gif) no-repeat 0 8px;padding-left: 10px;}
+.ctnSpOffer .packList .list .packBox .box .packDesc .packDescList li+li{margin-top: 7px;}
+.ctnSpOffer .packList .list .packBox .box .btnReserve{ background:url(../../images/ko/common/mypage/myplanBtnReserve.gif) no-repeat; width:106px; height:34px; position:absolute; right:0px; top:0;  vertical-align:middle; display:inline-block; line-height:100px; overflow:hidden;}
+.ctnSpOffer .packList .list .packBox label.packCheck{ position:absolute; left:-9999%;}
+.ctnSpOffer .packList .list .selBox{ position:relative; zoom:1; vertical-align:middle;}
+.ctnSpOffer .packList .list .selBox .ico{}
+.ctnSpOffer .packList .list .selBox .ico .img{ vertical-align:middle;}
+.ctnSpOffer .packList .list .selBox .checker{ position:absolute; right:9px; bottom:9px;}
+.ctnSpOffer .packList .list .selBox .icoAirline,
+.ctnSpOffer .packList .list .selBox .icoBreakfast,
+.ctnSpOffer .packList .list .selBox .icoCar{ display:inline-block; *display:inline; zoom:1; vertical-align:middle; background:url(../../images/ko/common/mypage/myplanIcoPackOpt.gif) no-repeat; width:40px; height:40px; overflow:hidden; line-height:100px;}
+.ctnSpOffer .packList .list .selBox .icoAirline{background-position:0px 0;}
+.ctnSpOffer .packList .list .selBox .icoBreakfast{ background-position:-45px 0;}
+.ctnSpOffer .packList .list .selBox .icoCar{background-position:-90px 0;}
+
+
+
+/*íŒ¨í‚¤ì§€ë³´ê¸°*/
+.ctnSpOffer .snsLink { float: left; margin: 2px 5px 0 0;}
+.ctnSpOffer .snsLink .btnTwitter{background:url(../../images/ko/jeju/membership/jejuGoldBtnSns.gif) no-repeat; width:23px; height:23px; vertical-align:middle; display:inline-block; line-height:100px; overflow:hidden;margin-right:5px;}
+.ctnSpOffer .snsLink .btnFacebook{ background:url(../../images/ko/jeju/membership/jejuGoldBtnSns.gif) no-repeat -29px 0; width:23px; height:23px; vertical-align:middle; display:inline-block; line-height:100px; overflow:hidden;}
+.ctnPackageView{}
+.ctnPackageView .packageViewWrap{ margin:0 0 20px 0;}
+.ctnPackageView .packageViewWrap .infoBox{border-top:#cdcbbe solid 1px; margin:0 0 20px 0;}
+.ctnPackageView .packageViewWrap .infoBox .info1{ padding:0 20px 0 25px; height:47px; border-bottom:#cdcbbe solid 1px; background:#faf9f4;}
+.ctnPackageView .packageViewWrap .infoBox .info2{ padding:0 20px 0 25px;  height:47px; border-bottom:#cdcbbe solid 1px;}
+.ctnPackageView .packageViewWrap .infoBox .tit{margin:12px 10px 0 0; color:#856f56; font-size:15px; font-weight:bold; text-decoration:underline; float:left;}
+.ctnPackageView .packageViewWrap .infoBox .date{margin:14px 0px 0 0; float:right;}
+.ctnPackageView .packageViewWrap .infoBox .amt{margin:5px 0px 0 0; float:left;}
+.ctnPackageView .packageViewWrap .infoBox .info{ margin:0 0 8px 0; color:#444444}
+.ctnPackageView .packageViewWrap .infoBox .btnList{ padding:10px 0 0 0;}
+.ctnPackageView .packageViewWrap .infoBox .btnList .btnGoPkgList{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnGoList.gif) no-repeat; width:86px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.ctnPackageView .packageViewWrap .infoBox .btnList .btnReservation{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnRsv.gif) no-repeat; width:90px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.ctnPackageView .packageViewWrap .infoBox .btnList .btnListL{float:right}
+.ctnPackageView .packageViewWrap .infoBox .btnList .btnListR{float:right; width:140px;}
+.ctnPackageView .packageViewWrap .infoBox .opt{display:inline-block; margin:0 0 0 10px;}
+.ctnPackageView .packageViewWrap .infoBox .opt .amt{ font-weight:bold;}
+.ctnPackageView .packageViewWrap .infoBox .snsLink{ position:absolute; right:0px; top:0px;}
+.ctnPackageView .packageViewWrap .btnIcoPack{ height:64px; zoom:1;}
+.ctnPackageView .packageViewWrap .btnIcoPack:after{clear:both;content:"";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.ctnPackageView .packageViewWrap .btnIcoPack li{ float: left; margin:0 5px 0 0;}
+.ctnPackageView .packageViewWrap .btnIcoPack .icoPack{ float:left; height:40px;}
+.ctnPackageView .packageViewWrap .btnRsv .btnReservation{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnRsv.gif) no-repeat; width:106px; height:44px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnPackageView .btnReservation2{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnRsv2.gif) no-repeat; width:83px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.ctnPackageView .packageViewWrap .photoBox{ margin:0 0 20px 0;}
+.ctnPackageView .packageViewWrap .guideBoxA{ margin:0 0 10px 0; padding:15px 20px; background:#fbfbfb; border:#eaeaea solid 1px;}
+.ctnPackageView .packageViewWrap .guideBoxB{ margin:0 0 39px 0; padding:15px 20px 15px 36px; background:#fdf8ef; border:#f4eee4 solid 1px; color:#666666;}
+.ctnPackageView .packageViewWrap .guideBoxB .tit{ font-weight:bold;}
+.ctnPackageView .packageViewWrap .guideBoxB .list{ margin:0 0 0 10px; }
+.ctnPackageView .packageViewWrap .guideBoxB .list li{ background:url(../../images/ko/jeju/main/bul01.gif) no-repeat 0 8px; padding:0 0 0 10px;}
+.ctnPackageView .packageViewWrap .recomBox{ margin:0 0 30px 0;}
+.ctnPackageView .packageViewWrap .recomBox .hTit{border-bottom:#a1886f solid 3px; height:27px; margin:0 0 20px 0;}
+.ctnPackageView .packageViewWrap .recomBox .hTit .tit{ background:url(../../images/ko/jeju/specialoffers/packageViewTit2.gif) no-repeat; height:27px; line-height:100px; overflow:hidden;}
+.ctnPackageView .packageViewWrap .recomBox .list{ padding:0 0 0 12px; overflow:hidden;}
+.ctnPackageView .packageViewWrap .recomBox .list li{ margin:0 10px 0 0; float:left;}
+.ctnPackageView .packageViewWrap .otherPack{padding:20px 25px; border:#e5d9ca solid 1px; overflow:hidden;}
+.ctnPackageView .packageViewWrap .otherPack .hTit { border-bottom:#a1886f solid 3px; height:27px; margin:0 0 20px 0;}
+.ctnPackageView .packageViewWrap .otherPack .hTit .tit{ background:url(../../images/ko/jeju/specialoffers/packageViewTit1.gif) no-repeat; height:27px; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnPackageView .btnList{ padding:10px 0 0 0;}
+.ctnSpOffer.ctnPackageView .btnList .btnGoList{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnGoList.gif) no-repeat; width:86px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnPackageView .btnList .btnListL{float:right;}
+.ctnSpOffer.ctnPackageView .btnList .btnListR{float:left;width:140x;}
+
+
+.packageSlideBox{ padding:0 0 0 23px; width:814px; height:183px; position:relative;}
+.packageSlideBox .ad-gallery{ width:765px;}
+.packageSlideBox .ad-gallery .ad-nav{}
+.packageSlideBox .ad-gallery .ad-back{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnPrev.gif) no-repeat; left:-23px; width:33px; height:120px; text-indent:-9999px; overflow:hidden;}
+.packageSlideBox .ad-gallery .ad-forward{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnNext.gif) no-repeat; right:-23px; width:33px; height:120px; text-indent:-9999px; overflow:hidden;}
+.packageSlideBox .ad-gallery .ad-thumbs li a img{ border:none ; opacity:1 !important; 	filter: alpha(opacity = 100) !important;}
+.packageSlideBox .ad-gallery .ad-thumbs li a{ text-align:center; width:235px; margin:auto; }
+.packageSlideBox .ad-gallery .ad-thumbs li a .tit{ font-weight:bold; display:block; padding:14px 0 0 0; text-align:left; font-size:15px; color:#856f56; text-decoration:underline;}
+.packageSlideBox .ad-gallery .ad-thumbs li a .date{background:url(../../images/ko/jeju/main/bul02.gif) no-repeat 0 8px; padding:0 0 0 7px; text-align:left;}
+.packageSlideBox .ad-gallery .ad-thumbs li a .price{background:url(../../images/ko/jeju/main/bul02.gif) no-repeat 0 8px; padding:0 0 0 7px; font-weight:bold; margin:0 0 8px 0; text-align:left;}
+.packageSlideBox .ad-gallery .ad-thumbs li{ padding-right:0px; width:255px; text-align:center; }
+
+
+
+
+
+
+/*Event*/
+.ctnSpOffer.ctnEvent{}
+.ctnSpOffer.ctnEvent .topMsg{ background:url(../../images/ko/jeju/specialoffers/eventTopMsg.gif) no-repeat; width:531px; height:41px; margin:0 0 10px 0; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnEvent .topMsg2{ background:url(../../images/ko/jeju/specialoffers/eventTopMsg.gif) no-repeat; width:866px; height:41px; margin:0 0 10px 0; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnEvent .packViewDesc{margin-bottom: 0;}
+
+.ctnSpOffer.ctnEvent .schBox{ padding:19px 35px; margin:0 0 10px 0; border:#e3d6c6 solid 1px; zoom:1; text-align:center;}
+.ctnSpOffer.ctnEvent .schBox:after{clear:both;content:"";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.ctnSpOffer.ctnEvent .schBox .date{ display:inline-block; vertical-align:middle; padding:2px 0 0 0; margin:0 0px 0 0;}
+.ctnSpOffer.ctnEvent .schBox .date .name{ width:60px; height:27px; background:url(../../images/ko/jeju/specialoffers/packageLabelH1.gif) no-repeat; vertical-align:middle; display:inline-block; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnEvent .schBox .date label{ position:absolute; left:-9999%;}
+.ctnSpOffer.ctnEvent .schBox .date input.dateStart,
+.ctnSpOffer.ctnEvent .schBox .date input.dateEnd{ width:116px; margin:0 7px 0 0}
+.ctnSpOffer.ctnEvent .packageWrap{margin: 50px 0 0;}
+.ctnSpOffer.ctnEvent .packageWrap .eventTit{margin: 0 0 40px;font-size:0;line-height: 0;border-bottom: 3px solid #a1886f;}
+.ctnSpOffer.ctnEvent .packageWrap .packList a{text-decoration: underline;}
+.ctnSpOffer.ctnEvent .btnList{ display:inline-block;margin:0 0 30px 0; width:100%;}
+.ctnSpOffer.ctnEvent .btnList .btnSch{ background:url(../../images/ko/jeju/specialoffers/packageBtnSch.gif) no-repeat; width:112px; height:40px; vertical-align:middle; display:inline-block; line-height:200px; overflow:hidden; }
+
+.ctnSpOffer.ctnEvent .eventWrap{ border:#e5d9ca solid 1px; padding:25px 24px; margin:0 0 10px 0;}
+.ctnSpOffer.ctnEvent .eventWrap .hTitDining{ border-top:#a78f77 solid 1px; height:27px; padding:20px 0 0 0; margin:0 0 5px 0;}
+.ctnSpOffer.ctnEvent .eventWrap .hTitDining .tit{ float:left; background:url(../../images/ko/jeju/specialoffers/eventTitDining.gif) no-repeat; width:100%; height:27px; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnEvent .mpEventList { width:815px; overflow:hidden;}
+.ctnSpOffer.ctnEvent .mpEventList .list { overflow:hidden; width:870px;zoom:1; vertical-align:middle; margin:-30px 0 0 0; }
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox{  float:left; width:235px; margin:30px 55px 0px 0px; position:relative; display:block; zoom:1; vertical-align:middle;}
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .checkBtn{ position:relative; height:20px; margin:0 0 5px 0;}
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .checkBtn label.packCheck{ position:absolute; left:-9999%;}
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box{padding:0px; position:relative; }
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .photo{margin:0 0 14px 0; position:relative;}
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .photo .img{ vertical-align:middle;}
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .ico{position:absolute; left:0px; bottom:0;  }
+.ctnSpOffer.ctnEvent .ico{height:27px; display:inline-block; line-height:100px; overflow:hidden; vertical-align:middle;position: absolute;bottom: 0;left: 0;}
+
+.ctnSpOffer.ctnEvent .icoHIN{ width:77px; background:url(../../images/ko/jeju/specialoffers/eventIcoHinode.gif) no-repeat; }
+.ctnSpOffer.ctnEvent .icoCHE{width:90px; background:url(../../images/ko/jeju/specialoffers/eventIcoCheonjee.gif) no-repeat; }
+.ctnSpOffer.ctnEvent .icoBAD{width:80px;  background:url(../../images/ko/jeju/specialoffers/eventIcoBadang.gif) no-repeat;}
+.ctnSpOffer.ctnEvent .icoOLB{width:67px;  background:url(../../images/ko/jeju/specialoffers/eventIcoOllae.gif) no-repeat;}
+.ctnSpOffer.ctnEvent .icoPSB{width:108px;  background:url(../../images/ko/jeju/specialoffers/eventIcoPoolsideBar.gif) no-repeat;}
+.ctnSpOffer.ctnEvent .icoPSBQ{width:125px;  background:url(../../images/ko/jeju/specialoffers/eventIcoPastry.gif) no-repeat; }
+.ctnSpOffer.ctnEvent .icoPAR{width:113px;  background:url(../../images/ko/jeju/specialoffers/eventIcoParkview.gif) no-repeat; }
+.ctnSpOffer.ctnEvent .icoSTORY{width:68px;  background:url(../../images/ko/jeju/specialoffers/eventIcoSyory.gif) no-repeat; }
+
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .tit,
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .tit a{ font-size:15px; font-weight:bold; color:#856f56; text-decoration:underline; color:#856f56; margin:0 0 5px 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .info{ margin:0 0 4px 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .date{ background:url(../../images/ko/jeju/main/bul02.gif) no-repeat 0 8px; padding:0 0 0 7px;}
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .price{ background:url(../../images/ko/jeju/main/bul02.gif) no-repeat 0 8px; padding:0 0 0 7px; font-weight:bold; margin:0 0 8px 0;}
+.ctnSpOffer.ctnEvent .mpEventList .list .eventBox .box .place{ background:url(../../images/ko/jeju/main/bul02.gif) no-repeat 0 8px; padding:0 0 0 7px; margin:0 0 8px 0;}
+
+.ctnSpOffer.ctnEvent .hTitPrizeWin{border-bottom:#a1886f solid 3px; height:27px; padding:20px 0 0 0; margin:0 0 0px 0;}
+.ctnSpOffer.ctnEvent .hTitPrizeWin .tit{ float:left; background:url(../../images/ko/jeju/specialoffers/eventTit1.gif) no-repeat; width:100%; height:27px; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnEvent .bbsListPrizeWin{ border-top:none;}
+.ctnSpOffer.ctnEvent .bbsListPrizeWin th{ padding:13px 10px 14px}
+
+.ctnSpOffer.ctnEvent .btnListMp{ margin:0;}
+
+
+.ctnSpOffer.ctnEventView{}
+.ctnSpOffer.ctnEventView img{ vertical-align:middle;}
+.ctnSpOffer.ctnEventView .eventCtn{ margin:0 0 20px 0;}
+.ctnSpOffer.ctnEventView .eventCtn .hBox{ border-top:#cdcbbe solid 1px; margin:0 0 10px 0;}
+.ctnSpOffer.ctnEventView .eventCtn .hBox .hB1{ padding:0 20px 0 25px; height:47px; border-bottom:#cdcbbe solid 1px; background:#faf9f4}
+.ctnSpOffer.ctnEventView .eventCtn .hBox .hB2{ padding:0 20px 0 25px;  height:47px; border-bottom:#cdcbbe solid 1px;}
+.ctnSpOffer.ctnEventView .eventCtn .hBox .ico{ margin:10px 10px 0 0; float:left}
+.ctnSpOffer.ctnEventView .eventCtn .hBox .name{margin:14px 10px 0 0; color:#856f56; font-size:15px; font-weight:bold; text-decoration:underline; float:left}
+.ctnSpOffer.ctnEventView .eventCtn .hBox .date{margin:14px 0px 0 0; float:right;}
+.ctnSpOffer.ctnEventView .eventCtn .hBox .amt{margin:5px 0px 0 0; float:left;}
+.ctnSpOffer.ctnEventView .eventCtn .hBox .snsLink{margin:7px 0px 0 0; position:relative; float:right;}
+.ctnSpOffer.ctnEventView .eventCtn .ctnBox{margin:20px 0px 0 0;}
+.ctnSpOffer.ctnEventView .infoBox{ padding:20px 25px; margin:0 0 20px 0; border:#e5d9ca solid 1px; overflow:hidden;}
+.ctnSpOffer.ctnEventView .infoBox .photo{ float:left;}
+.ctnSpOffer.ctnEventView .infoBox .info{ float:right; width:608px; position:relative;}
+.ctnSpOffer.ctnEventView .infoBox .info .name{}
+.ctnSpOffer.ctnEventView .infoBox .info .txt{}
+.ctnSpOffer.ctnEventView .infoBox .info .btnGo{ border:#ede6db solid 1px; display:inline-block; padding:2px 8px; vertical-align:middle;}
+
+.ctnSpOffer.ctnEventView .otherEventWrap{ padding:20px 25px; border:#e5d9ca solid 1px; overflow:hidden;}
+.ctnSpOffer.ctnEventView .otherEventWrap{}
+.ctnSpOffer.ctnEventView .otherEventWrap .guideBoxB .list li{ background:url(../../images/ko/jeju/main/bul01.gif) no-repeat 0 8px; padding:0 0 0 10px;}
+.ctnSpOffer.ctnEventView .otherEventWrap .otherPack{}
+.ctnSpOffer.ctnEventView .otherEventWrap .otherPack .hTit { border-bottom:#a1886f solid 3px; height:27px; margin:0 0 20px 0;}
+.ctnSpOffer.ctnEventView .otherEventWrap .otherPack .hTit .tit{ background:url(../../images/ko/jeju/specialoffers/eventViewTit1.gif) no-repeat; height:27px; line-height:100px; overflow:hidden;}
+
+.ctnSpOffer.ctnEventView .btnList{ padding:10px 0 0 0;}
+.ctnSpOffer.ctnEventView .btnList .btnGoList{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnGoList.gif) no-repeat; width:86px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.ctnSpOffer.ctnEventView .btnList .btnListL{float:right}
+.ctnSpOffer.ctnEventView .btnList .btnListR{float:left}
+
+.recomProduct{}
+.recomProduct .recomTit{background:url(../../images/ko/jeju/specialoffers/recomProduct.gif) no-repeat; height:24px; line-height:24px; text-indent: -9999px;overflow:hidden;margin-bottom: 30px;}
+.recomProduct .recomTit.otherTit{background:url(../../images/ko/jeju/specialoffers/otherProduct.gif) no-repeat;}
+.recomProduct .recomTit.eventTit{background:url(../../images/ko/jeju/specialoffers/otherEvent.gif) no-repeat;}
+.recomProduct .recomList{overflow: hidden;border-bottom: 1px solid #e2d5c5;padding-bottom: 30px;margin-bottom: 50px;}
+.recomProduct .recomList a{outline: none;}
+.recomProduct .recomList li{float: left;margin-left: 28px;width: 270px;}
+.recomProduct .recomList li img{width: 270px;height: 160px;}
+.recomProduct .recomList li.first{margin-left: 0;}
+.recomProduct .recomList dl{margin: 20px 0 0 ;color: #444}
+.recomProduct .recomList dl dt{font-size:16px;color:#856f56;font-weight: 700;margin: 10px 0 12px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.recomProduct .recomList li:hover dl dt{text-decoration: underline;}
+.recomProduct .recomList .packPrice{font-weight: 700;margin: 7px 0 0 ;}
+
+/* offerSlide */
+.recomProduct .recomList.offerSlide>li{margin-left: 28px;}
+.offerSlide{position: relative;}
+.offerSlide .flex-control-nav.flex-control-paging{display: none;}
+.offerSlide .flex-direction-nav{overflow: hidden;width: 100%;}
+.offerSlide .flex-direction-nav .flex-nav-prev, .offerSlide .flex-direction-nav .flex-nav-next{display: inline-block;width: 35px;}
+.offerSlide .flex-direction-nav .flex-nav-prev{position: absolute;top: 47px;left: 0;margin-left: 0;}
+.offerSlide .flex-direction-nav .flex-nav-next{position: absolute;top: 47px;right: 0;margin-left: 0;}
+.offerSlide .flex-direction-nav .flex-nav-prev .flex-prev {display:inline-block;width:35px;height:70px;overflow: hidden;text-indent: -999px;background: url(../../images/ko/jeju/specialoffers/offerSlideNav.png) no-repeat 0 0;}
+.offerSlide .flex-direction-nav .flex-nav-next .flex-next {display:inline-block;width:35px;height:70px;overflow: hidden;text-indent: -999px;background: url(../../images/ko/jeju/specialoffers/offerSlideNav.png) no-repeat right 0;margin-right: 0;}
+
+
+/* */
+.ctnEventViewPrize{}
+.ctnSpOffer.ctnEventViewPrize .eventCtn .hBox .snsLink{ float:none;}
+.ctnSpOffer.ctnEventViewPrize .eventCtn .hBox .hOpt{ float:right; padding:12px 0 0 0;}
+.ctnSpOffer.ctnEventViewPrize .eventCtn .hBox .hOpt .date{ float:none; margin:0 6px 0 0;}
+
+.ctnSpOffer .prizeBox{ border-bottom:#cdcbbe solid 1px; padding:0px 10px 10px 10px ;}
+.ctnSpOffer .prizeBox .photo{ text-align:center;}
+.ctnSpOffer .prizeBox .prizeUserBox{ border:#e2d5c5 solid 1px; padding:10px; background:#fdf8ef; position:relative; zoom:1; margin:10px 0 0 0;}
+.ctnSpOffer .prizeBox .prizeUserBox .tit{ position:absolute; left:18px; top:50%; margin:-11px 0 0 0; background:url(../../images/ko/jeju/specialoffers/eventPrizeWinTit.gif) no-repeat; width:83px; height:22px; vertical-align:middle; display:inline-block; line-height:100px; overflow:hidden;}
+.ctnSpOffer .prizeBox .prizeUserBox .box{ margin:0 0 0 100px; padding:0 0 0 20px; border-left:#e2d5c5 solid 1px;}
+.ctnSpOffer .prizeBox .prizeUserBox .box .msg{ font-weight:bold; color:#666666}
+.ctnSpOffer .prizeBox .prizeUserBox .box .list{ overflow:hidden;}
+.ctnSpOffer .prizeBox .prizeUserBox .box .list li{ float:left; margin:0 10px 0px 0; color:#666666}
+
+
+/*Course*/
+
+.ctnSpOffer.ctnRdCourse{}
+.ctnSpOffer.ctnRdCourse .headTit .tit{line-height:100%}
+.contents .headTit .tit{}
+
+
+.ctnSpOffer.ctnRdCourse .topMsg{}
+.ctnSpOffer.ctnRdCourse .csBox{margin:30px 0 50px 0;}
+.ctnSpOffer.ctnRdCourse .courseBox{float:left; width:170px; margin-left:40px;}
+.ctnSpOffer.ctnRdCourse .courseBox.csBoxFirst{margin-left:30px; width:170px}
+.ctnSpOffer.ctnRdCourse .courseBox img{margin:0;padding:0;}
+.ctnSpOffer.ctnRdCourse .courseBox .csImg{margin-top:-5px;width:170px}
+.ctnSpOffer.ctnRdCourse .csBtnBox{text-align:center;margin-top:5px;*margin-top:10px;}
+
+.ctnSpOffer.ctnRdCourse .rcmBox{}
+.ctnSpOffer.ctnRdCourse .rcmInner{float:left;width:294px;}
+.ctnSpOffer.ctnRdCourse .rcmInner img{float:left;}
+.ctnSpOffer.ctnRdCourse .rcmInner.last{width:276px;}
+
+
+.ctnSpOffer.ctnRdCourse .tabBox{ position:relative; padding:30px 0px 0 0px; overflow:hidden;border-bottom:1px solid #727272;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn{ float:left; width:100%;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn .tit{ position:absolute; top:0px;margin:0px; background-color:#FFF;height:36px;z-index:10;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn .tit a{display:block;height:36px;text-indent:-9999px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn .tit.tab1h3{width:400px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn1 .tit a{background:url(../../images/ko/jeju/specialoffers/tab1.gif) no-repeat left top;width:112px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn2 .tit a{background:url(../../images/ko/jeju/specialoffers/tab2.gif) no-repeat left top;width:113px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn3 .tit a{background:url(../../images/ko/jeju/specialoffers/tab3.gif) no-repeat left top;width:113px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn4 .tit a{background:url(../../images/ko/jeju/specialoffers/tab4.gif) no-repeat left top;width:113px;}
+
+
+.ctnSpOffer.ctnRdCourse .tabBox .ctn1 .tit{ left:0px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn2 .tit{ left:115px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn3 .tit{ left:230px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn4 .tit{ left:345px;}
+.ctnSpOffer.ctnRdCourse .tabBox .viewBtn{position:absolute; top:0px;right:0px;z-index:20;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctnOn .tit a{display:block;height:36px;text-indent:-9999px;background-color:#FFF;z-index:10;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn1.ctnOn .tit a{background:url(../../images/ko/jeju/specialoffers/tab1On.gif) no-repeat left top;width:112px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn2.ctnOn .tit a{background:url(../../images/ko/jeju/specialoffers/tab2On.gif) no-repeat left top;width:113px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn3.ctnOn .tit a{background:url(../../images/ko/jeju/specialoffers/tab3On.gif) no-repeat left top;width:113px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctn4.ctnOn .tit a{background:url(../../images/ko/jeju/specialoffers/tab4On.gif) no-repeat left top;width:113px;}
+
+
+.ctnSpOffer.ctnRdCourse .tabBox .ctn .tabContents{display:none;width:864px;border:1px solid #727272;position:relative;z-index:1;top:5px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctnOn .tabContents{display:block;}
+
+.ctnSpOffer.ctnRdCourse .tabBox .ctn .btnMore{ position:absolute; right:4px; top:-35px;}
+.ctnSpOffer.ctnRdCourse .tabBox .ctnOn .btnMore{ display:block;}
+
+
+.ctnSpOffer.ctnRdCourse .timeLine{width:786px;margin:20px 40px;}
+.ctnSpOffer.ctnRdCourse .tlTop{width:100%;text-align:center;margin:0px;}
+.ctnSpOffer.ctnRdCourse .tlBody{margin-top:20px;padding:90px 0 0 0;}
+
+.ctnSpOffer.ctnRdCourse .tlFriend{background:url(../../images/ko/jeju/specialoffers/frTimelineBack.jpg) no-repeat left top;}
+.ctnSpOffer.ctnRdCourse .tlCouple{background:url(../../images/ko/jeju/specialoffers/cpTimelineBack.jpg) no-repeat left top;}
+.ctnSpOffer.ctnRdCourse .tlFamily1{background:url(../../images/ko/jeju/specialoffers/fm1TimelineBack.jpg) no-repeat left top;}
+.ctnSpOffer.ctnRdCourse .tlFamily2{background:url(../../images/ko/jeju/specialoffers/fm2TimelineBack.jpg) no-repeat left top;}
+
+.ctnSpOffer.ctnRdCourse .tlBody .titBox{overflow:hidden;margin-top:10px;}
+.ctnSpOffer.ctnRdCourse .tlBody .titBox img{float:left;}
+.ctnSpOffer.ctnRdCourse .tlBody .titBox img.mg10{margin-right:10px;}
+.ctnSpOffer.ctnRdCourse .tlBody .titBox img.ftr{float:right;}
+
+.ctnSpOffer.ctnRdCourse .tlFriend .dayBox{width:100%;overflow:hidden;padding-bottom:155px;*padding-bottom:165px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .dayBox1{width:100%;overflow:hidden;padding-bottom:135px;margin-top:-35px;*padding-bottom:165px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .dayBox{width:100%;overflow:hidden;padding-bottom:85px;*padding-bottom:103px;}
+.ctnSpOffer.ctnRdCourse .tlFamily1 .dayBox{width:100%;padding-bottom:70px;*padding-bottom:95px;}
+.ctnSpOffer.ctnRdCourse .tlFamily2 .dayBox{width:100%;overflow:hidden;padding-bottom:73px;*padding-bottom:94px;}
+
+.ctnSpOffer.ctnRdCourse .tlBody .dayBoxLast{padding-bottom:0px; margin-top: -12px;*margin-top:11px}
+
+.ctnSpOffer.ctnRdCourse .tlbLeft{float:left;width:369px;text-align:right;}
+.ctnSpOffer.ctnRdCourse .tlbRight{float:right;width:375px;}
+
+*****  ì¹œêµ¬ íƒ€ìž„ë¼ì¸  *******************************************************************
+.mgt10{margin-top:10px}
+.mgt35{margin-top:35px}
+.mgt25{margin-top:25px}
+.ml13{margin-left: 13px}
+.mgt-5{margin-top: -5px}
+.ctnSpOffer.ctnRdCourse .tlFriend .day1Left1{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .day1Left2{margin-top:25px;}
+
+.ctnSpOffer.ctnRdCourse .tlFriend .day1Right1{margin-top:57px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .day1Right2{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .day1Right3{margin-top:74px;}
+
+.ctnSpOffer.ctnRdCourse .tlFriend .day2Left1{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .day2Left2{margin-top:70px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .day2Left3{margin-top:26px;}
+
+.ctnSpOffer.ctnRdCourse .tlFriend .day2Right1{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .day2Right2{margin-top:25px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .day2Right3{*margin-top:10px;}
+
+.ctnSpOffer.ctnRdCourse .tlFriend .day3Left1{margin-top:11px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .day3Right1{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .day3Right2{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlFriend .day3Right3{*margin-top:10px;}
+
+*****  ì»¤í”Œ íƒ€ìž„ë¼ì¸  *******************************************************************
+
+.ctnSpOffer.ctnRdCourse .tlCouple .day1Left1{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .day1Left2{margin-top:24px;}
+
+.ctnSpOffer.ctnRdCourse .tlCouple .day1Right1{margin-top:60px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .day1Right2{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .day1Right3{margin-top:25px;}
+
+.ctnSpOffer.ctnRdCourse .tlCouple .day2Left1{margin-top:35px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .day2Left2{margin-top:66px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .day2Left3{margin-top:5px;}
+
+.ctnSpOffer.ctnRdCourse .tlCouple .day2Right1{margin-top:18px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .day2Right2{margin-top:6px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .day2Right3{*margin-top:5px;}
+
+.ctnSpOffer.ctnRdCourse .tlCouple .day3Left1{margin-top:17px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .day3Right1{margin-top:26px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .day3Right2{margin-top:-10px;}
+.ctnSpOffer.ctnRdCourse .tlCouple .day3Right3{*margin-top:10px;}
+
+
+*****  ê°€ì¡±(ìžë…€) íƒ€ìž„ë¼ì¸  *******************************************************************
+
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day1Left1{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day1Left2{margin-top:51px;}
+
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day1Right1{margin-top:190px;}
+
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day2Left1{margin-top:43px;}
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day2Left2{margin-top:109px;}
+
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day2Right1{margin-top:37px;}
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day2Right2{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day2Right3{*margin-top:5px;}
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day2Right4{margin-top:5px;}
+
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day3Left1{margin-top:75px;}
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day3Left2{margin-top:5px;}
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day3Left3{*margin-top:10px;}
+.ctnSpOffer.ctnRdCourse .tlFamily1 .day3Right1{margin-top:65px;}
+
+
+*****  ê°€ì¡±(ë¶€ëª¨) íƒ€ìž„ë¼ì¸  *******************************************************************
+
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day1Left1{margin-top:0px;}
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day1Left2{margin-top:38px;}
+
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day1Right1{margin-top:60px;}
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day1Right2{*margin-top:10px;}
+
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day2Left1{margin-top:50px;}
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day2Left2{margin-top:31px;}
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day2Left3{margin-top:52px;;}
+
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day2Right1{margin-top:30px;}
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day2Right2{margin-top:3px;}
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day2Right3{margin-top:10px;}
+
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day3Left1{margin-top:60px;}
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day3Right1{margin-top:50px;}
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day3Right2{margin-top:5px;}
+.ctnSpOffer.ctnRdCourse .tlFamily2 .day3Right3{margin-top:8px;}
+
+
+
+.ctnSpOffer.ctnRdCourse .tabContents .mapMain{width:760px;margin:80px 0 0 52px;overflow:hidden;}
+
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2{ position:relative; padding:100px 0px 0 0px; overflow:hidden;margin:0;}
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns{ float:left; width:760px;}
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns .tit2{ position:absolute; top:0px;margin:0px; padding:0px; }
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns .tit2 a{ display:block; height:73px; width:150px; text-indent:-9999px; }
+
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns1 .tit2{ left:147px;}
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns2 .tit2{ left:306px;}
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns3 .tit2{ left:465px;}
+
+
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns1 .tit2 a{background:url(../../images/ko/jeju/specialoffers/tabDay1.gif) no-repeat left top;}
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns2 .tit2 a{background:url(../../images/ko/jeju/specialoffers/tabDay2.gif) no-repeat left top;}
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns3 .tit2 a{background:url(../../images/ko/jeju/specialoffers/tabDay3.gif) no-repeat left top;}
+
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns1.ctnsOn .tit2 a{background:url(../../images/ko/jeju/specialoffers/tabDay1.gif) no-repeat left bottom;}
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns2.ctnsOn .tit2 a{background:url(../../images/ko/jeju/specialoffers/tabDay2.gif) no-repeat left bottom;}
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns3.ctnsOn .tit2 a{background:url(../../images/ko/jeju/specialoffers/tabDay3.gif) no-repeat left bottom;}
+
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns .box{ display:none; padding:0; margin:0;}
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctnsOn .box{display:block;}
+
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns .box{padding-top:40px;}
+.ctnSpOffer.ctnRdCourse .tabContents .frMapMain .tabBox2 .ctns .box.day1Box{background:url(../../images/ko/jeju/specialoffers/mDay1ScBack.gif) no-repeat top;}
+.ctnSpOffer.ctnRdCourse .tabContents .frMapMain .tabBox2 .ctns .box.day2Box{background:url(../../images/ko/jeju/specialoffers/mDay2ScBack.gif) no-repeat top;}
+.ctnSpOffer.ctnRdCourse .tabContents .frMapMain .tabBox2 .ctns .box.day3Box{background:url(../../images/ko/jeju/specialoffers/frDay3ScBack.gif) no-repeat top;}
+
+.ctnSpOffer.ctnRdCourse .tabContents .cpMapMain .tabBox2 .ctns .box.day1Box{background:url(../../images/ko/jeju/specialoffers/cpDay1ScBack.gif) no-repeat left top;}
+.ctnSpOffer.ctnRdCourse .tabContents .cpMapMain .tabBox2 .ctns .box.day2Box{background:url(../../images/ko/jeju/specialoffers/cpDay2ScBack.gif) no-repeat left top;}
+.ctnSpOffer.ctnRdCourse .tabContents .cpMapMain .tabBox2 .ctns .box.day3Box{background:url(../../images/ko/jeju/specialoffers/cpDay3ScBack.gif) no-repeat left top;}
+
+.ctnSpOffer.ctnRdCourse .tabContents .fm1MapMain .tabBox2 .ctns .box.day1Box{background:url(../../images/ko/jeju/specialoffers/fm1Day1ScBack.gif) no-repeat top;}
+.ctnSpOffer.ctnRdCourse .tabContents .fm1MapMain .tabBox2 .ctns .box.day2Box{background:url(../../images/ko/jeju/specialoffers/fm1Day2ScBack.gif) no-repeat top;}
+.ctnSpOffer.ctnRdCourse .tabContents .fm1MapMain .tabBox2 .ctns .box.day3Box{background:url(../../images/ko/jeju/specialoffers/fm1Day3ScBack.gif) no-repeat top;}
+
+.ctnSpOffer.ctnRdCourse .tabContents .fm2MapMain .tabBox2 .ctns .box.day1Box{background:url(../../images/ko/jeju/specialoffers/fm2Day1ScBack.gif) no-repeat top;}
+.ctnSpOffer.ctnRdCourse .tabContents .fm2MapMain .tabBox2 .ctns .box.day2Box{background:url(../../images/ko/jeju/specialoffers/fm2Day2ScBack.gif) no-repeat top;}
+.ctnSpOffer.ctnRdCourse .tabContents .fm2MapMain .tabBox2 .ctns .box.day3Box{background:url(../../images/ko/jeju/specialoffers/fm2Day3ScBack.gif) no-repeat top;}
+
+.ctnSpOffer.ctnRdCourse .tabContents .fm2MapMain .tabBox2 .ctns .box.day1Box ul.topUl li.first{margin-left:0px;}
+.ctnSpOffer.ctnRdCourse .tabContents .fm2MapMain .tabBox2 .ctns .box.day2Box ul.topUl li.first{margin-left:0px;}
+
+
+
+.ctnSpOffer.ctnRdCourse .tabContents .tabBox2 .ctns .box ul li{float:left;}
+
+.ctnSpOffer.ctnRdCourse .tabContents .rdMap{display:inline-block;width:100%;text-align:center;margin-top:50px;}
+
+
+/* ìŠ¬ë¼ì´ë“œ1 */
+.ctnSpOffer .btmAreaA{ width: 660px;margin:20px 50px;}
+.ctnSpOffer #slideBanner,
+.ctnSpOffer #slideBanner2,
+.ctnSpOffer #slideBanner3,
+.ctnSpOffer #slideBanner4,
+.ctnSpOffer #slideBanner5,
+.ctnSpOffer #slideBanner6,
+.ctnSpOffer #slideBanner7,
+.ctnSpOffer #slideBanner8,
+.ctnSpOffer #slideBanner9,
+.ctnSpOffer #slideBanner10,
+.ctnSpOffer #slideBanner11,
+.ctnSpOffer #slideBanner12 { position: relative; width: 660px; height: 200px; margin-left: 5px;}
+
+.ctnSpOffer #slideBanner .slideCnt,
+.ctnSpOffer #slideBanner2 .slideCnt,
+.ctnSpOffer #slideBanner3 .slideCnt,
+.ctnSpOffer #slideBanner4 .slideCnt,
+.ctnSpOffer #slideBanner5 .slideCnt,
+.ctnSpOffer #slideBanner6 .slideCnt,
+.ctnSpOffer #slideBanner7 .slideCnt,
+.ctnSpOffer #slideBanner8 .slideCnt,
+.ctnSpOffer #slideBanner9 .slideCnt,
+.ctnSpOffer #slideBanner10 .slideCnt,
+.ctnSpOffer #slideBanner11 .slideCnt,
+.ctnSpOffer #slideBanner12 .slideCnt { width: 610px; height: 200px; margin:0 25px; overflow: hidden;}
+
+.ctnSpOffer #slideBanner .slideCnt ul,
+.ctnSpOffer #slideBanner2 .slideCnt ul,
+.ctnSpOffer #slideBanner3 .slideCnt ul,
+.ctnSpOffer #slideBanner4.slideCnt ul,
+.ctnSpOffer #slideBanner5 .slideCnt ul,
+.ctnSpOffer #slideBanner6 .slideCnt ul,
+.ctnSpOffer #slideBanner7 .slideCnt ul,
+.ctnSpOffer #slideBanner8 .slideCnt ul,
+.ctnSpOffer #slideBanner9 .slideCnt ul,
+.ctnSpOffer #slideBanner10 .slideCnt ul,
+.ctnSpOffer #slideBanner11 .slideCnt ul,
+.ctnSpOffer #slideBanner12 .slideCnt ul {width:930px; height: 94px; }
+
+.ctnSpOffer #slideBanner .slideCnt ul li,
+.ctnSpOffer #slideBanner2 .slideCnt ul li,
+.ctnSpOffer #slideBanner3 .slideCnt ul li,
+.ctnSpOffer #slideBanner4 .slideCnt ul li,
+.ctnSpOffer #slideBanner5 .slideCnt ul li,
+.ctnSpOffer #slideBanner6 .slideCnt ul li,
+.ctnSpOffer #slideBanner7 .slideCnt ul li,
+.ctnSpOffer #slideBanner8 .slideCnt ul li,
+.ctnSpOffer #slideBanner9 .slideCnt ul li,
+.ctnSpOffer #slideBanner10 .slideCnt ul li,
+.ctnSpOffer #slideBanner11 .slideCnt ul li,
+.ctnSpOffer #slideBanner12 .slideCnt ul li  { overflow: hidden; width: 134px; text-align: center; float: left;margin-right:20px;}
+
+.ctnSpOffer #slideBanner .slideCnt ul li p,
+.ctnSpOffer #slideBanner2 .slideCnt ul li p,
+.ctnSpOffer #slideBanner3 .slideCnt ul li p,
+.ctnSpOffer #slideBanner4 .slideCnt ul li p,
+.ctnSpOffer #slideBanner5 .slideCnt ul li p,
+.ctnSpOffer #slideBanner6 .slideCnt ul li p,
+.ctnSpOffer #slideBanner7 .slideCnt ul li p,
+.ctnSpOffer #slideBanner8 .slideCnt ul li p,
+.ctnSpOffer #slideBanner9 .slideCnt ul li p,
+.ctnSpOffer #slideBanner10 .slideCnt ul li p,
+.ctnSpOffer #slideBanner11 .slideCnt ul li p,
+.ctnSpOffer #slideBanner12 .slideCnt ul li p  { margin-left: -5px; font-weight: bold; color: #7f7f7f;}
+
+.ctnSpOffer #prevBtn,
+.ctnSpOffer #prevBtn2,
+.ctnSpOffer #prevBtn3,
+.ctnSpOffer #prevBtn4,
+.ctnSpOffer #prevBtn5,
+.ctnSpOffer #prevBtn6,
+.ctnSpOffer #prevBtn7,
+.ctnSpOffer #prevBtn8,
+.ctnSpOffer #prevBtn9,
+.ctnSpOffer #prevBtn10,
+.ctnSpOffer #prevBtn11,
+.ctnSpOffer #prevBtn12  {position: absolute; top:40px; left: 3px; z-index: 50; }
+
+.ctnSpOffer #nextBtn,
+.ctnSpOffer #nextBtn2,
+.ctnSpOffer #nextBtn3,
+.ctnSpOffer #nextBtn4,
+.ctnSpOffer #nextBtn5,
+.ctnSpOffer #nextBtn6,
+.ctnSpOffer #nextBtn7,
+.ctnSpOffer #nextBtn8,
+.ctnSpOffer #nextBtn9,
+.ctnSpOffer #nextBtn10,
+.ctnSpOffer #nextBtn11,
+.ctnSpOffer #nextBtn12 {position: absolute; top:40px; right: 3px; z-index: 50;}
+
+.ctnSpOffer #prev,
+.ctnSpOffer #prev2,
+.ctnSpOffer #prev3,
+.ctnSpOffer #prev4,
+.ctnSpOffer #prev5,
+.ctnSpOffer #prev6,
+.ctnSpOffer #prev7,
+.ctnSpOffer #prev8,
+.ctnSpOffer #prev9,
+.ctnSpOffer #prev10,
+.ctnSpOffer #prev11,
+.ctnSpOffer #prev12  {position: absolute; top:40px; left: 3px; z-index: 10;}
+
+.ctnSpOffer #next,
+.ctnSpOffer #next2,
+.ctnSpOffer #next3,
+.ctnSpOffer #next4,
+.ctnSpOffer #next5,
+.ctnSpOffer #next6,
+.ctnSpOffer #next7,
+.ctnSpOffer #next8,
+.ctnSpOffer #next9,
+.ctnSpOffer #next10,
+.ctnSpOffer #next11,
+.ctnSpOffer #next12 {position: absolute; top:40px; right: 3px; z-index: 10;}
+
+.ctnSpOffer #slideBanner .slideCnt ul li.last,
+.ctnSpOffer #slideBanner2 .slideCnt ul li.last,
+.ctnSpOffer #slideBanner3 .slideCnt ul li.last,
+.ctnSpOffer #slideBanner4 .slideCnt ul li.last,
+.ctnSpOffer #slideBanner5 .slideCnt ul li.last,
+.ctnSpOffer #slideBanner6 .slideCnt ul li.last,
+.ctnSpOffer #slideBanner7.slideCnt ul li.last,
+.ctnSpOffer #slideBanner8 .slideCnt ul li.last,
+.ctnSpOffer #slideBanner9 .slideCnt ul li.last,
+.ctnSpOffer #slideBanner10.slideCnt ul li.last,
+.ctnSpOffer #slideBanner11 .slideCnt ul li.last,
+.ctnSpOffer #slideBanner12 .slideCnt ul li.last{margin-right:0px;}
+
+.ctnSpOffer #slideBanner .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner2 .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner3 .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner4 .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner5 .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner6 .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner7 .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner8 .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner9 .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner10 .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner11 .slideCnt ul li .mask p,
+.ctnSpOffer #slideBanner12 .slideCnt ul li .mask p{color:#555;text-align:left;margin-left:0px;font-weight:normal;}
+
+.ctnSpOffer #slideBanner .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner2 .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner3 .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner4 .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner5 .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner6 .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner7 .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner8 .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner9 .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner10 .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner11 .slideCnt ul li .mask b,
+.ctnSpOffer #slideBanner12 .slideCnt ul li .mask b{font-weight:bold;}
+
+
+
+/* Thumb PopUp */
+.popLayerRcm img{ vertical-align:middle;}
+.popLayerRcm{ width:604px; margin:0 0 0 -302px; left:50%;}
+.popLayerRcm .popHead .tit{ line-height:100%;text-align:left;}
+
+/* íŒ¨í‚¤ì§€ ë³´ê¸° 20170221 */
+.packViewWrap{}
+.packViewWrap .packViewHead{margin: 20px 0 10px;overflow: hidden;text-align: right;}
+.packViewWrap .packViewHead .btnReservation{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnRsv.gif) no-repeat; width:86px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.packViewWrap .packViewHead .btnGoPkg {margin-left: 1px;}
+.packViewWrap .packViewHead .btnGoPkg .btnGoPkgList{width:86px; height:27px; display:inline-block; vertical-align:middle;background:url(../../images/ko/jeju/specialoffers/packageViewBtnGoList.gif) no-repeat; line-height:100px; overflow:hidden;}
+
+
+/* íŒ¨í‚¤ì§€ ë³´ê¸° ë‚´ìš© */
+.packViewContent{}
+.packageTopImg, .packageTopTit{line-height: 0;font-size: 0;}
+.packViewContent .packViewDesc{font-size: 16px;color: #444;line-height: 30px;margin-bottom: 20px;}
+.packViewContent .warnList{font-size:14px;color: #727272;line-height: 25px;margin:  0 0 25px;}
+.packViewContent .date{font-size: 14px;color: #444;padding-bottom: 35px;margin-bottom: 35px;border-bottom: 1px dotted #bfbfbf;line-height: 30px;}
+.packContact {padding: 27px 30px;background: #f1e4c4;color: #444;margin-bottom: 60px;overflow: hidden;}
+.packContact dl dt{font-size: 16px;font-weight: 700;padding-bottom: 12px;margin-bottom: 12px;border-bottom: 1px dotted #444;}
+.packContact dl dd{font-size:14px;line-height: 25px;}
+.packContact dl dd span{position: relative;}
+.packContact dl dd span.packTel{margin-right: 20px;}
+.packContact dl dd span.packTel:after{position: absolute;top: 1px;right: -10px;content: '';display: inline-block;width: 1px;height: 11px;background: #ccc;}
+.packContact.packBtm{margin-top:50px;padding-top: 24px;border-top: 3px solid #a1886f;}
+.packProductDesc{margin:50px 0 60px;}
+.packProductDesc dl+dl{margin: 50px 0 60px;}
+.packProductDesc dt{font-size: 16px;font-weight: 700;margin-bottom: 17px;color: #343434;}
+.packProductDesc dd{color: #444;}
+.packProductDesc dd img {vertical-align: middle;}
+.packProductDesc .packProductList img, .packProductDesc .descImg img{width: 420px;height: 220px;}
+.packProductDesc .packProductList {overflow: hidden;line-height: 0;}
+.packProductDesc .packProductList li{float: left;margin-left: 26px;}
+.packProductDesc .packProductList li.first{margin-left: 0;}
+.packProductDesc .packProductWarn{line-height: 25px;padding-left: 2px;color: #444;margin: 15px 0 5px;}
+.packProductDesc>ul{overflow: hidden;}
+.packProductDesc>ul>li{float: left;margin-left: 26px;width: 420px;}
+.packProductDesc>ul>li.first{margin-left: 0;}
+.packProductDesc .descImg{line-height: 0;font-size: 0;margin-bottom: 10px;}
+.packProductDesc .descTxt{line-height: 25px;width: 420px;}
+.buList{margin: 15px 0 0;}
+.buList li{background:url(../../images/ko/jeju/main/bul02.gif) no-repeat 0 8px;padding-left: 10px;}
+.buList.multiLow li+li{margin-top: 10px;}
+.packTable .txtIndent{display: inline-block;width: 89px;}
+.facilitInfo{margin: 0 0 14px;color: #444;}
+.facilityDesc {margin: 0 0 60px}
+.facilityDesc dt{font-size: 16px;font-weight: 700;margin-bottom: 17px;color: #343434;}
+.facilityDesc dd{color: #444;margin: 0 0 17px;}
+.facilityDesc .linkBox{overflow: hidden;border: 1px solid #eaeaea;padding: 25px 30px 5px;}
+.facilityDesc .linkBox li{float: left;width: 32%;margin: 0 0 20px;background:url(../../images/ko/jeju/main/bul02.gif) no-repeat 0 8px;padding-left: 10px;}
+.facilityDesc .linkBox li a{color: #856f56;text-decoration: underline;}
+.useInfo{border: 1px solid #f4eee3;background: #fdf8ef;color: #444;padding: 25px 30px;margin: 0 0 30px;}
+.useInfo dt{font-size: 14px;font-weight: 700;margin: 25px 0 14px;}
+.useInfo dl dt:first-child{margin-top: 0;}
+.useInfo dd{line-height: 22px;color: #444}
+.useInfo ul>li{background:url(../../images/ko/jeju/main/bul02.gif) no-repeat 0 8px;padding-left: 10px;margin: 0 0 2px;}
+.useInfo ul>li>ul{margin: 4px 0 0;}
+.useInfo ul>li>ul>li{background: none;padding-left: 0;}
+.rwMem{line-height: 0;font-size: 0;margin: 0 0 10px}
+.rwMemDesc{color: #444;line-height: 20px;margin: 0 0 60px}
+.packRequest{position: relative;overflow: hidden;padding: 30px 0 90px;border-top: 3px solid #a1886f;color: #444;}
+.packRequest dt{float: left;margin: 0 10px 0 0;}
+.packRequest .packTel:after{content: '';display: inline-block;width: 1px;height: 11px;background: #ccc;margin: 0 10px 0;position: relative; top: 1px;}
+.packRequest .packContactRight{position: absolute;top: 20px;right: 0;}
+.packRequest .packContactRight .btnGoPkgList{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnGoList.gif) no-repeat; width:86px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;margin-left: 5px;}
+.packRequest .packContactRight .btnReservation{ background:url(../../images/ko/jeju/specialoffers/packageViewBtnRsv.gif) no-repeat; width:86px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.benefitTbl {border-top: 1px solid #cdcbbe;}
+.benefitTbl table{border-collapse:collapse;width: 100%;}
+.benefitTbl th{background: #faf9f4;border-bottom: 1px solid #cdcbbe;font-size: 14px;font-weight: 700;color: #856f56;text-align: center;padding: 25px 30px;}
+.benefitTbl td{border-bottom: 1px solid #cdcbbe;border-left: 1px solid #eceae1;padding: 25px 30px;color:#444;height: 50px;}
+.benefitTbl .tblPrice span{display: block;line-height: 25px;color:#444;}
+.benefitTbl .tblPrice span+span{margin-top: 10px;}
+.benefitTbl .tblPrice span strong{font-size: 14px;font-weight: 700;}
+.benefitTbl .tblList li{background:url(../../images/ko/seoul/main/bul02.gif) no-repeat 0 10px;padding-left: 10px;line-height: 20px;}
+.benefitTbl .tblList li+li{margin-top: 5px;}
+
+
+/* íŒ¨í‚¤ì§€ ë‹¬ë ¥ */
+.popLayerOfferCalendar{ width:796px; left:50%; top:50%; margin:-330px 0 0 -398px; position:absolute;}
+.popLayerOfferCalendar .popHead .tit{ background:url(../../images/ko/jeju/main/popHeadTitReservation.gif) no-repeat 0 -250px;}
+.popLayerOfferCalendar .rsvCalendarWrap {padding: 15px 40px;}
+.popLayerOfferCalendar .rsvCalendarWrap .rsvCalendarInner {margin-right: 60px;}
+.popLayerOfferCalendar .rsvCalendarWrap .rsvCalendarInner.last {margin-right: 0;}
+.popLayerOfferCalendar .rsvDateWrap .leftSide{width: 41px;}
+.popLayerOfferCalendar .rsvDateWrap .leftSide{width: 41px;}
+.popLayerOfferCalendar .calendarRsvBox .rStatus{padding: 20px 0 0 0;margin: 0 0 10px 0;border-top: 1px solid #cdcbbe;}
+.popLayerOfferCalendar .calendarRsvBox .calendarNext:after{content: '';display: block;margin-top: 25px;}
+.popLayerOfferCalendar .btnPop{text-align: right;}
+.popLayerOfferCalendar .btnPop .btnSrchPop{background:url(../../images/ko/jeju/reservation/reserveStepSrch.gif) no-repeat; width:160px; height:50px; display:inline-block; line-height:999; overflow:hidden; }
+.popLayerOfferCalendar .calendarRsvBox .dateNav{margin: 0 50px 25px;}
+.popLayerOfferCalendar .calendarRsvBox .calendarPrev{ margin-left: 50px;height: 270px;}
+.popLayerOfferCalendar .calendarRsvBox .calendarNext{ margin-right: 50px;height: 270px;}

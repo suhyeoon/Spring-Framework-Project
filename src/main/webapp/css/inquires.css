@@ -1,0 +1,370 @@
+/* CSS inquires */
+
+/*Contact Us*/
+.ctnInquires.ctnContactus{}
+.ctnInquires.ctnContactus .msgBox{ background:url(../../images/ko/jeju/inquires/contactusMsg1.gif) no-repeat; height:80px; margin:0 0 15px 0; overflow:hidden;}
+.ctnInquires.ctnContactus .msgBox *{ position:absolute; left:-9999%;}
+.ctnInquires.ctnContactus .hTitS{ margin:0 0 7px 0; height:20px;}
+.ctnInquires.ctnContactus .hTitS .tit{ float:left; font-weight:bold; }
+.ctnInquires.ctnContactus .hTitS .info{ float:right;}
+.ctnInquires.ctnContactus .msgBox2{ border:#eaeaea solid 1px;  background:#fbfbfb; padding:15px 20px; margin:0 0 40px 0;}
+.ctnInquires.ctnContactus{}
+.ctnInquires.ctnContactus .btnHotelmap{ margin:-20px 0 0 0 ; background:url(../../images/ko/jeju/inquires/contactusBtnHotelmap.gif) no-repeat; width:106px; height:34px; vertical-align:middle; display:inline-block; line-height:100px; overflow:hidden;}
+
+
+.ctnInquires.ctnContactus .linkBox{ width:866px; overflow:hidden;}
+.ctnInquires.ctnContactus .linkBox dt{ width:146px; height:65px; float:left; margin:0 30px 0 0;}
+.ctnInquires.ctnContactus .linkBox dd{ width:680px; height:65px; float:left;}
+.ctnInquires.ctnContactus .linkBox dd img{ vertical-align:top; float:left; margin:0 10px 0 0;}
+
+
+.ctnInquires.ctnContactus .linkBox ul{ width:900px;}
+.ctnInquires.ctnContactus .linkBox ul li{ float:left; width:209px; height:60px; margin:0 10px 10px 0; background:url(../../images/ko/jeju/inquires/contactusLink.gif) no-repeat;}
+.ctnInquires.ctnContactus .linkBox ul li h5{ padding:10px 0 0 65px; font-weight:bold;}
+.ctnInquires.ctnContactus .linkBox ul li p{ padding:0px 0 0 65px; }
+.ctnInquires.ctnContactus .linkBox ul li.link1 h5{ line-height:15px;}
+.ctnInquires.ctnContactus .linkBox ul li.link1 p{}
+.ctnInquires.ctnContactus .linkBox ul li.link1{ background-position:0px 0px}
+.ctnInquires.ctnContactus .linkBox ul li.link2{ background-position:-220px 0px}
+.ctnInquires.ctnContactus .linkBox ul li.link3{ background-position:-440px 0px}
+.ctnInquires.ctnContactus .linkBox ul li.link4{ background-position:-660px 0px}
+.ctnInquires.ctnContactus .linkBox ul li.link5{ background-position:0px -70px}
+.ctnInquires.ctnContactus .linkBox ul li.link6{ background-position:-220px -70px}
+.ctnInquires.ctnContactus .linkBox ul li.link7{ background-position:-440px -70px}
+
+/*.ctnInquires.ctnContactus img{ vertical-align:middle;}
+.ctnInquires.ctnContactus .hTitWc{ border-bottom:#a1886f solid 3px; height:28px; margin:0 0 10px 0;}
+.ctnInquires.ctnContactus .workCenter{ overflow:hidden;}
+.ctnInquires.ctnContactus .workCenter ul{ float:left; width:288px;}
+.ctnInquires.ctnContactus .workCenter ul li{ overflow:hidden; margin:0 0 10px 0;}
+.ctnInquires.ctnContactus .workCenter ul li h6{ display:block; float:left}
+.ctnInquires.ctnContactus .workCenter ul li p{ display:block; float:left;}
+*/
+
+
+/*ê³ ê°ì˜ê²¬ì ‘ìˆ˜*/
+.ctnInquires.ctnCustomer{}
+.ctnInquires.ctnCustomer .hTit{ margin:0 0 7px 0; overflow:hidden;}
+.ctnInquires.ctnCustomer .hTit .tit{ float:left; font-weight:bold;}
+.ctnInquires.ctnCustomer .hTit .info{ float:right; }
+.ctnInquires.ctnCustomer .guideBox{}
+
+.ctnInquires.ctnCustomer .tableCustomer{ margin:0 0 20px 0;}
+.phoneSelBox{ margin:0 20px 10px 0;}
+.ctnInquires.ctnCustomer label.nameH,
+.ctnInquires.ctnCustomer label.nameF,
+.ctnInquires.ctnCustomer label.emailId,
+.ctnInquires.ctnCustomer label.emailDomain,
+.ctnInquires.ctnCustomer label.emailDomainSel,
+.ctnInquires.ctnCustomer label.phoneHome1,
+.ctnInquires.ctnCustomer label.phoneHome2,
+.ctnInquires.ctnCustomer label.phoneHome3,
+.ctnInquires.ctnCustomer label.zipcode1,
+.ctnInquires.ctnCustomer label.zipcode2,
+.ctnInquires.ctnCustomer label.address1,
+.ctnInquires.ctnCustomer label.address2,
+.ctnInquires.ctnCustomer label.addressNew1,
+.ctnInquires.ctnCustomer label.addressNew2,
+.ctnInquires.ctnCustomer label.nameF,
+.ctnInquires.ctnCustomer label.nameF{ position:absolute; left:-9999%;}
+
+.ctnInquires.ctnCustomer .guideBox{ background:url(../../images/ko/jeju/inquires/customerMsg1.gif) no-repeat; height:120px; margin:0 0 20px 0; }
+.ctnInquires.ctnCustomer .guideBox *{ position:absolute; left:-9999%;}
+.ctnInquires.ctnCustomer .btnSchAddress{ background:url(../../images/ko/common/join/btnSchAddress.gif) no-repeat; width:66px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.ctnInquires.ctnCustomer .tableCustomer th{ padding-left:20px;}
+.ctnInquires.ctnCustomer .tableCustomer th .ast{ margin-left:-9px;}
+.ctnInquires.ctnCustomer label.memo{ line-height:18px !important; display:inline-block;}
+.ctnInquires.ctnCustomer textarea.memo { width:703px; height:110px; vertical-align:middle}
+.ctnInquires.ctnCustomer .addressWrap .addressOld input.address1{ width:514px;}
+.ctnInquires.ctnCustomer .addressWrap .addressOld input.address2{ width:703px;}
+.ctnInquires.ctnCustomer .addressWrap .addressNew div.addressNew1,
+.ctnInquires.ctnCustomer .addressWrap .addressNew div.addressNew2{ width:640px}
+.ctnInquires.ctnCustomer .addressWrap .addressNew input.addressNew1,
+.ctnInquires.ctnCustomer .addressWrap .addressNew input.addressNew2{ width:643px}
+
+.ctnInquires.ctnCustomer .btnRegist{ background:url(../../images/ko/jeju/inquires/inquiresBtn.gif) no-repeat 0px 0; width:99px; height:44px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.ctnInquires.ctnCustomer .btnCancel{ background:url(../../images/ko/jeju/inquires/inquiresBtn.gif) no-repeat -109px 0; width:99px; height:44px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+
+
+
+/*ë¬¸ì˜í•˜ê¸°*/
+
+
+.ctnInquires.ctnQna{}
+.ctnInquires.ctnQna .msg{margin:20px 0;text-align:center;}
+.ctnInquires.ctnQna .msgBox{ margin:0 0 10px 0; background:url(../../images/ko/jeju/inquires/qnaMsg1.gif) no-repeat; height:41px; line-height:100px; overflow:hidden;}
+.ctnInquires.ctnQna .guideBox{ margin:0px 0 20px 0;}
+.ctnInquires.ctnQna .hTit{ border-bottom:#a1886f solid 3px; height:30px; line-height:100px; overflow:hidden;}
+.ctnInquires.ctnQna .hTit1{ background:url(../../images/ko/jeju/inquires/qnaTit1.gif) no-repeat; margin:0 0 20px 0; }
+.ctnInquires.ctnQna .hTit2{ background:url(../../images/ko/jeju/inquires/qnaTit2.gif) no-repeat; }
+
+.ctnInquires.ctnQna .faqSchBox{ text-align:right; margin:0 0 5px 0;}
+.ctnInquires.ctnQna .faqSchBox .btnSch{ background:url(../../images/ko/jeju/inquires/inquiresBtn.gif) no-repeat 0px -170px; width:62px; height:27px; vertical-align:middle; display:inline-block; line-height:100px; overflow:hidden;}
+.ctnInquires.ctnQna .faqSchBox label.faqSch{ position:absolute; left:-9999%;}
+.ctnInquires.ctnQna .faqSchBox input.faqSch{ width:190px;}
+
+.ctnInquires.ctnQna .msg1{ margin:0 0 10px 0; background:url(../../images/ko/jeju/inquires/qnaMsg2.gif) no-repeat; height:30px; display:block; line-height:100px; overflow:hidden;}
+.ctnInquires.ctnQna .msg2{ margin:0; no-repeat; height:30px; width:600px; overflow:hidden; position:relative; left:15px; top:8px;}
+
+.ctnInquires.ctnQna .tabFaq{ height:30px; margin:0 0 0px 0; }
+.ctnInquires.ctnQna .tabFaq li{ float:left; margin:0 1px 0 0;}
+.ctnInquires.ctnQna .tabFaq li.first a{ padding-left:0px; background:none;}
+.ctnInquires.ctnQna .tabFaq li a{ display:block;  text-align:center;  padding:4px 10px 4px 13px; height:20px; background:url(../../images/ko/jeju/main/pagingBar.gif) no-repeat 0 8px;}
+.ctnInquires.ctnQna .tabFaq li a.on{ font-weight:bold;}
+
+.ctnInquires.ctnQna .faqList { margin:0 0 20px 0;}
+.ctnInquires.ctnQna .faqList { border-top:#cdcbbe solid 1px; }
+.ctnInquires.ctnQna .faqList .icoQ,
+.ctnInquires.ctnQna .faqList .icoA{ }
+.ctnInquires.ctnQna .faqList .icoA{ position:absolute; left:107px; top:10px;*top:22px; }
+*:first-child+html .ctnInquires.ctnQna .faqList .icoA{ position:absolute; left:133px; top:22px; }
+.ctnInquires.ctnQna .faqList ul { }
+.ctnInquires.ctnQna .faqList ul li { border-bottom: #ccc solid 1px; vertical-align: middle; zoom: 1; background: #ffffff }
+.ctnInquires.ctnQna .faqList ul li .fTit { display: block; overflow:hidden; zoom:1; cursor:pointer; background:#faf9f4}
+.ctnInquires.ctnQna .faqList ul li .fTit .cate { float:left; color: #666; padding:9px 0px; width:90px; text-align:center; display:inline-block; *display:inline; zoom:1;}
+.ctnInquires.ctnQna .faqList ul li .fTit .tit { float:left; color: #707070; padding:9px 15px;  display:inline-block; *display:inline; zoom:1;}
+.ctnInquires.ctnQna .faqList ul li.on .fTit .tit {  }
+.ctnInquires.ctnQna .faqList ul li.on { border-bottom: none; }
+.ctnInquires.ctnQna .faqList ul li .fTit .info { padding: 10px 90px 10px 121px }
+.ctnInquires.ctnQna .faqList ul li .msg { text-align:left; margin:0; position:relative; border-bottom:#ccc solid 1px; border-top:#ccc solid 1px; padding: 10px 25px 10px 124px; background: #fff; line-height: 160%; color: #1b1b1b}
+.ctnInquires.ctnQna .faqNoSch{ text-align:center; padding:20px 0;}
+
+
+.ctnInquires.ctnQna .linkBox{ padding-left:15px;}
+.ctnInquires.ctnQna .linkBox ul{}
+.ctnInquires.ctnQna .linkBox ul li{ float:left; margin:0 6px 6px 0;}
+.ctnInquires.ctnQna .linkBox ul li a{ display:block; height:44px; line-height:100px; overflow:hidden;}
+.ctnInquires.ctnQna .linkBox ul li .btnAcmd{ width:154px; background:url(../../images/ko/jeju/inquires/qnaLinkBoxAcmd.gif) no-repeat;}
+.ctnInquires.ctnQna .linkBox ul li .btnAcmd2{ width:154px; background:url(../../images/ko/seoul/inquires/qnaLinkBoxAcmd2.gif) no-repeat;}/*ë¬¸ì˜í•˜ê¸° ë²„íŠ¼ ì¶”ê°€*/
+.ctnInquires.ctnQna .linkBox ul li .btnDining{ width:120px;  background:url(../../images/ko/jeju/inquires/qnaLinkBoxDining.gif) no-repeat;}
+.ctnInquires.ctnQna .linkBox ul li .btnMeeting{ width:141px;  background:url(../../images/ko/jeju/inquires/qnaLinkBoxMeeting.gif) no-repeat;}
+.ctnInquires.ctnQna .linkBox ul li .btnWedding{ width:107px;  background:url(../../images/ko/jeju/inquires/qnaLinkBoxWedding.gif) no-repeat;}
+.ctnInquires.ctnQna .linkBox ul li .btnMembership{ width:120px;  background:url(../../images/ko/jeju/inquires/qnaLinkBoxMembership.gif) no-repeat;}
+.ctnInquires.ctnQna .linkBox ul li .btnWebsite{ width:166px;  background:url(../../images/ko/jeju/inquires/qnaLinkBoxWebsite.gif) no-repeat;}
+.ctnInquires.ctnQna .linkBox ul li .btnBizCenter{ width:166px;  background:url(../../images/ko/jeju/inquires/qnaLinkBoxBizCenter.gif) no-repeat;}
+
+
+
+
+
+/*ë¬¸ì˜í•˜ê¸° íŒì—…*/
+
+.popLayerContactusQna{ width:800px; left:50%; top:100px; margin:0px 0 0 -400px; position:absolute;}
+.popLayerContactusQna .popHead .tit{ background:url(../../images/ko/jeju/main/popHeadTitInquires.gif) no-repeat 0 0px;}
+.popLayerContactusQna .hTitS{ overflow:hidden; margin:0 0 5px 0;}
+.popLayerContactusQna .hTitS .tit{ float:left; font-weight:bold; }
+.popLayerContactusQna .hTitS .info{ float:right; }
+.popLayerContactusQna .topMsgBox{ margin:0 0 10px 0;}
+.popLayerContactusQna .estimateBox{ margin:0 0 30px 0;  background-image: url("../../images/en/seoul/inquires/customerPopMsg5.gif"); height: 60px; } 
+.popLayerContactusQna .estimateBox .info{border:#eaeaea solid 1px; background:#fbfbfb; padding:15px 20px; margin:0px 0 10px 0;}
+.popLayerContactusQna .estimateBox .btn{ text-align:right;}
+.popLayerContactusQna .estimateBox .btn .btnEstimateDownload{ background:url(../../images/ko/jeju/inquires/inquiresBtn.gif) no-repeat -80px -170px; width:160px; height:27px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+
+.popLayerContactusQna .guideMsg{ background:#FFC; padding:10px; border:#90C solid 1px; margin:0 0 10px 0;}
+.popLayerContactusQna .tableContactQna{margin:0 0 30px 0}
+.popLayerContactusQna .tableContactQna th{ padding-left:23px;}
+.popLayerContactusQna .tableContactQna th .ast{ margin-left:-10px;}
+.popLayerContactusQna .tableContactQna input.title{ width:580px; }
+.popLayerContactusQna .tableContactQna textarea.qMemo{ width:580px; height:60px;}
+.popLayerContactusQna .tableContactQna label.qMemo{ line-height:18px !important; display:inline-block;}
+.popLayerContactusQna .phoneSelBox{ display:inline; margin:0 10px 0 0;}
+.popLayerContactusQna .fileGuideMsg{ padding:8px 0  0 0;}
+
+.popLayerContactusQna .btnRegist{ background:url(../../images/ko/jeju/inquires/inquiresBtn.gif) no-repeat 0px 0; width:99px; height:44px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.popLayerContactusQna .btnCancel{ background:url(../../images/ko/jeju/inquires/inquiresBtn.gif) no-repeat -109px 0; width:99px; height:44px; display:inline-block; vertical-align:middle; line-height:100px; overflow:hidden;}
+.popLayerContactusQna .headTit .tit{ line-height:100px; overflow:hidden;}
+.popLayerContactusQna .headTit .tit{ background-image: url("../../images/ko/seoul/inquires/customerPopTit.gif"); background-position: 0 -194px; width: 219px;}
+
+/*ë¬¸ì˜í•˜ê¸° íŒì—…1 ê°ì‹¤*/
+.popLayerContactusQnaAcmd .headTit .tit{ background:url(../../images/ko/jeju/inquires/customerPopTit.gif) no-repeat 0px -0px;}
+.popLayerContactusQnaAcmd .topMsgBox{ background:url(../../images/ko/jeju/inquires/customerPopMsg1.gif) no-repeat; height:60px; overflow:hidden;}
+.popLayerContactusQnaAcmd .topMsgBox *{ position:absolute; left:-9999%;}
+
+/*ë¬¸ì˜í•˜ê¸° íŒì—…2 ë‹¤ì´ë‹*/
+.popLayerContactusQnaDining .headTit .tit{ background:url(../../images/ko/jeju/inquires/customerPopTit.gif) no-repeat 0px -50px;}
+.popLayerContactusQnaDining .topMsgBox{ background:url(../../images/ko/jeju/inquires/customerPopMsg2.gif) no-repeat; height:60px; overflow:hidden;}
+.popLayerContactusQnaDining .topMsgBox *{ position:absolute; left:-9999%;}
+
+/*ë¬¸ì˜í•˜ê¸° íŒì—…3 ï¿½ì—°íšŒ*/
+.popLayerContactusQnaMeeting .headTit .tit{ background:url(../../images/ko/jeju/inquires/customerPopTit.gif) no-repeat 0px -100px;}
+.popLayerContactusQnaMeeting .topMsgBox{ background:url(../../images/ko/jeju/inquires/customerPopMsg3.gif) no-repeat; height:60px; overflow:hidden;}
+.popLayerContactusQnaMeeting .topMsgBox *{ position:absolute; left:-9999%;}
+.popLayerContactusQnaMeeting .tableContactQna{ margin:0 0 20px 0;}
+
+/*ë¬¸ì˜í•˜ê¸° íŒì—…4 ï¿½ì›¨ë”©*/
+.popLayerContactusQnaWedding .headTit .tit{ background:url(../../images/ko/jeju/inquires/customerPopTit.gif) no-repeat 0px -150px;}
+.popLayerContactusQnaWedding .topMsgBox{ background:url(../../images/ko/jeju/inquires/customerPopMsg4.gif) no-repeat; height:60px; overflow:hidden;}
+.popLayerContactusQnaWedding .topMsgBox *{ position:absolute; left:-9999%;}
+
+/*ë¬¸ì˜í•˜ê¸° íŒì—…5 ë©¤ë²„ì‹­*/
+.popLayerContactusQnaMembership .headTit .tit{ background:url(../../images/ko/jeju/inquires/customerPopTit.gif) no-repeat 0px -200px;}
+.popLayerContactusQnaMembership .topMsgBox{ background:url(../../images/ko/jeju/inquires/customerPopMsg5.gif) no-repeat; height:60px; overflow:hidden;}
+.popLayerContactusQnaMembership .topMsgBox *{ position:absolute; left:-9999%;}
+
+/*ë¬¸ì˜í•˜ê¸° íŒì—…6 ï¿½í™ˆíŽ˜ì´ì§€*/
+.popLayerContactusQnaWebsite .headTit .tit{ background:url(../../images/ko/jeju/inquires/customerPopTit.gif) no-repeat 0px -250px;}
+.popLayerContactusQnaWebsite .topMsgBox{ background:url(../../images/ko/jeju/inquires/customerPopMsg6.gif) no-repeat; height:60px; overflow:hidden;}
+.popLayerContactusQnaWebsite .topMsgBox *{ position:absolute; left:-9999%;}
+
+
+.popLayerContactusQna .btnQnaSend,
+.popLayerContactusQna .btnQnaCancel{ border:#CCC solid 1px; display:inline-block; padding:3px 10px; }
+.popLayerContactusQna #uniform-phoneHome{ width:50px !important}
+.popLayerContactusQna #uniform-phoneHome span{ width:25px !important}
+
+
+.popLayerContactusQna label.gender,
+.popLayerContactusQna label.nameF,
+.popLayerContactusQna label.emailId,
+.popLayerContactusQna label.emailDomain,
+.popLayerContactusQna label.emailDomainSel,
+.popLayerContactusQna label.phoneComp,
+.popLayerContactusQna label.phone1,
+.popLayerContactusQna label.phone2,
+.popLayerContactusQna label.phone3,
+.popLayerContactusQna label.phoneHome,
+.popLayerContactusQna label.phoneHome1,
+.popLayerContactusQna label.phoneHome2,
+.popLayerContactusQna label.gender,
+.popLayerContactusQna label.gender,
+.popLayerContactusQna label.gender,
+.popLayerContactusQna label.gender,
+.popLayerContactusQna label.gender,
+.popLayerContactusQna label.gender,
+.popLayerContactusQna label.gender,
+.popLayerContactusQna label.gender,
+.popLayerContactusQna label.phoneNumber,
+.popLayerContactusQna label.adresNumber,
+.popLayerContactusQna label.wishDate,
+.popLayerContactusQna label.wishDateTime,
+.popLayerContactusQna label.qCate{ position:absolute; left:-9999%;}
+
+.popLayerContactusQna #uniform-phone1{ width:50px !important;}
+.popLayerContactusQna #uniform-phone1 span{width:25px !important;}
+
+
+
+/* Hotel Map  */
+
+.ctnhotelMap{}
+
+.ctnhotelMap .hmBox{position:relative;width:866px;height:355px;overflow:hidden;margin:30px 0;/*background:url(../../images/ko/jeju/inquires/hmBack.jpg) no-repeat;*/}
+.ctnhotelMap .hm3rdBox{float:right;width:270px;padding:0px;margin:101px 10px 0 0;}
+.ctnhotelMap .hm3rdBox ul{float:left;}
+
+.ctnhotelMap .hmInfo{}
+.ctnhotelMap .hmInfo.f5{width:110px;margin-left:5px;line-height:160%;}
+.ctnhotelMap .hmInfo.f3{width:100px;margin-left:50px;line-height:160%;}
+/*
+.ctnhotelMap .hmBtnBox{display:inline-block;width:766px;overflow:hidden;margin:80px 0 0 37px;}
+*/
+.ctnhotelMap .hmBtnBox{position:absolute;top:276px;left:37px}
+.ctnhotelMap .hmBtnBox a{margin-right:2px;}
+
+
+
+.popLayerHotelMap{ width:600px; left:50%; top:100px; margin:0px 0 0 -300px; position:absolute;}
+
+.popLayerHotelMap .popHead .tit{line-height:100%;text-align:left;}
+
+
+
+
+
+/* Guest Service */
+
+.ctnPolicy{}
+.ctnGstSvc{}
+.ctnGstSvc .headTit .tit{line-height:100%;}
+.gsSvcTop{}
+
+.gsBox{width:100%;overflow:hidden;margin-bottom:60px;}
+.gsLeftBox{float:left;width:423px;}
+.gsRightBox{float:right;width:423px;}
+.gsSubBox{float:left;width:270px;margin-right:25px;}
+.gsSubBox.last{margin-right:0px;}
+
+.gsBox .drBtn{float:right;width:83px;margin-top:8px;}
+.gsBox .gsText{float:left;}
+
+
+.ctnPolicy .headTit .tit { background-position: 0 0; }
+.ctnGstSvc .headTit .tit { line-height: 100%;}
+.ctnGstSvc .baicBox { border-bottom: 1px solid #e8e4de; padding: 0 0 57px 0; margin: 0 0 30px 0; overflow: hidden; }
+.ctnGstSvc .baicBox .lBox { float: left; margin-right: 20px; width: 423px; }
+.ctnGstSvc .baicBox .lBox .imgArea { display: inline-block; }
+.ctnGstSvc .baicBox .lBox .imgArea img { vertical-align: top; }
+.ctnGstSvc .baicBox .rBox .imgArea img { vertical-align: top; }
+.ctnGstSvc .baicBox .rBox { float: left; width: 423px; }
+.ctnGstSvc .baicBox .rBox .imgArea { display: inline-block; }
+.ctnGstSvc .baicBox .expArea { overflow: hidden; }
+.ctnGstSvc .baicBox .lBox .expArea .topExp { float: left; width: 340px; }
+.ctnGstSvc .baicBox .lBox .expArea .topExp img { vertical-align: top; }
+.ctnGstSvc .baicBox.btmBox .lBox { padding-bottom: 45px; }
+.ctnGstSvc .baicBox.btmBox .rBox { padding-bottom: 45px; }
+.ctnGstSvc .baicBox  .btnSet { float: right; }
+.ctnGstSvc .baicBox .lBox .expArea .btnSet { float: right; width: 83px; position: relative; text-align:right; }
+.ctnGstSvc .baicBox .lBox .expArea .btnSet .imgView { }
+.ctnGstSvc .baicBox .lBox .expArea .btnSet .booking { }
+.ctnGstSvc .baicBox .lBox .expArea .btnSet img { vertical-align: top; margin-top: 15px; }
+.ctnGstSvc .baicBox .rBox .expArea .topExp { float: left; width: 246px; }
+.ctnGstSvc .baicBox .rBox .expArea .btnSet img { vertical-align: top; margin-top: 15px;  }
+
+.ctnGstSvc .midBox { border-bottom: 1px solid #e8e4de; padding: 0 0 53px 0; margin: 0 0 30px 0; }
+.ctnGstSvc .btmBox { margin-top: 30px; }
+
+.ctnGstSvc .newBox { overflow: hidden; width: 100%; padding-bottom: 30px; border-bottom: 1px solid #e8e4de;  }
+.ctnGstSvc .newBox .pic { float: left; }
+.ctnGstSvc .newBox .topExpNew { float: right; }
+
+.ctnGstSvc .newBoxA { overflow: hidden; width: 100%; }
+.ctnGstSvc .newBoxA ul li { float: left; margin-right: 27px; }
+.ctnGstSvc .newBoxA ul li .pic img { vertical-align: top; }
+.ctnGstSvc .newBoxA ul li .topExpNew img { vertical-align: top; }
+.ctnGstSvc .newBoxA ul li.mgr0 { margin-right: 0; }
+
+.lBox { float: left;  width: 270px; margin-right: 17px}
+.lBox .imgArea { display: inline-block; }
+.lBox .imgArea img { vertical-align: top; }
+.topExpNew{float: left;}
+.pic { float: left; }
+.lBox .btnSet_F { float: right; width: 83px; position: relative; text-align:right;margin-top:20px }
+
+/* Location */
+
+.ctnLocation .locWrap {   }
+.ctnLocation .locWrap .con {  margin-bottom: 5px; }
+.ctnLocation .locWrap .con h5 { border: 1px solid #ededed; background: #f4f4f4; }
+.ctnLocation .locWrap .con h5 a { padding: 12px 50px 12px 10px; line-height: 100%; display: block; background:url('../../images/ko/seoul/inquires/openBtn.gif') no-repeat 800px 12px;}
+.ctnLocation .locWrap .con h5 a img { vertical-align: top; }
+.ctnLocation .locWrap .con .btTx { padding: 0 0 0 0; display: none; }
+.ctnLocation .locWrap .con.open .btTx { display: block; }
+.ctnLocation .locWrap .con.open h5 a { background:url('../../images/ko/seoul/inquires/closeBtn.gif') no-repeat 800px 12px; }
+
+.ctnLocation .headTit .tit {}
+.ctnLocation .locAdd {height: 100%; margin: 10px 0 15px 0;}
+.ctnLocation .locationImg img { border: 1px solid #e9e9e9; vertical-align: top; }
+.ctnLocation .locationMapTxt {}
+.ctnLocation .locationMapTxtA {}
+/*.ctnLocation .locationMapTxtA p { left: -9999%; position: absolute; }
+.ctnLocation .locationMapTxtA ul{ left: -9999%; position: absolute; }
+.ctnLocation .locationMapTxtA ul li{ left: -9999%; position: absolute; }
+.ctnLocation .locationMapTxtA h5 { left: -9999%; position: absolute; }*/
+.ctnLocation .locationMapTxtB { background: url("../../images/ko/jeju/inquires/locationListTxtB.gif") no-repeat 10px 10px; height: 240px; overflow: hidden; margin-bottom: 25px; }
+.ctnLocation .locationMapTxtB p { left: -9999%; position: absolute; }
+.ctnLocation .locationMapTxtB ul{ left: -9999%; position: absolute; }
+.ctnLocation .locationMapTxtB ul li{ left: -9999%; position: absolute; }
+.ctnLocation .locationMapTxtB h5 { left: -9999%; position: absolute; }
+
+.ctnLocation .locWrap .con {  margin-bottom: 5px; }
+.ctnLocation .locWrap .con h5 { border: 1px solid #ededed; background: #f4f4f4; }
+.ctnLocation .locWrap .con h5 a { padding: 12px 50px 12px 10px; line-height: 100%; display: block; background:url('../../images/ko/jeju/inquires/openBtn.gif') no-repeat 800px 12px;}
+.ctnLocation .locWrap .con h5 a img { vertical-align: top; }
+.ctnLocation .locWrap .con .btTx { padding: 0 0 0 0; display: none; }
+.ctnLocation .locWrap .con.open .btTx { display: block; }
+.ctnLocation .locWrap .con.open h5 a { background:url('../../images/ko/jeju/inquires/closeBtn.gif') no-repeat 800px 12px; }
+
+/*2013-10-14 ì¶”ê°€*/
+
+.popLayerContactusQnaMembership .topMsgBox {
+    background-image: url("../../images/ko/seoul/inquires/customerPopMsg5.gif");  height: 60px;  line-height: 200px;   width: 500px;}

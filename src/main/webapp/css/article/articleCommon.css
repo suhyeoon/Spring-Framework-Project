@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+.event:hover{
+	background-color: #FFFFD4;
+}
+
+#titleA{
+	color:black;
+	text-decoration: none;
+}
+
+#titleA:hover{
+	text-decoration: underline;
+}

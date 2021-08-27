@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+#resv_tb{
+	border-top:5px solid black;
+	border-bottom:1px solid #997000;
+	text-align:center;
+	width:1200px;
+	height:60px;
+	
+}
+#bold{
+	border-bottom:5px solid #997000; 
+	background-color:#EAEAEA;
+	font-weight:bold;
+	font-size:13pt;
+}
+
+#agree{
+	width:50%;
+	text-align:left;
+}
+
+#submit{
+		width:100px;
+		height:30px;
+		font-weight:bold;
+}
+
+hr{
+	border:1px solid #997000;
+}
+
+#join_tb2{
+	width:50%;
+	border-collapse:collapse;
+}
+
+#border1{
+	background-color:#FFFFF1;
+	text-align:center;
+	width:25%;
+	border-top:1px solid black;
+}
+#border2{
+	border-top:1px solid black;	
+}
+
+input[type=text], input[type=password], label{
+	height:20px;
+	margin-left:2%;
+}
+#option{
+	height:25px;
+}
+sub{
+	font-weight:bold;
+	color:#F29661;
+}
+#button{
+	height:25px;
+}
+
+
+

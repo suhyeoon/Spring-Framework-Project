@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="spring.web.mapper.MemberMapper">
+
+	<!-- 이곳에 접근하고자 하는 경우 namespace.id 로 접근한다. -->
+	<!-- resultType은 자바의 타입과 매핑되는 것을 작성한다. 아래의 selectOne 은 spring.web.model.Member과 매핑 -->
+	<!-- http://www.mybatis.org/mybatis-3/ko/configuration.html#typeAliases 참조 -->
+	<select id="selectById" resultType="spring.web.model.Member">
+		select * 
+		from member
+		where id = #{id}
+	</select>
+	
+	<select id="selectByIdGrade" resultType="spring.web.model.Member">
+		select * 
+		from memberData
+		where id = #{id}
+	</select>
+	
+	<select id="login" resultType="String">
+		select 'true' 
+		from member
+		where id = #{id} and pw = #{pw} and dropped = 0
+	</select>
+	
+	<select id="duplicateIdCheck" resultType="String">
+		select 'true' 
+		from member
+		where id = #{id}
+	</select>
+	
+	<select id="idSearch" resultType="String">
+		select id 
+		from member
+		where name = #{name} and email = #{email}
+	</select>
+	
+	<select id="pwdSearch" resultType="String">
+		select pw 
+		from member
+		where id = #{id} and email = #{email}
+	</select>
+
+	<!-- 
+		insert 기능을 수행할 때 Member 클래스의 객체를 매개변수로 전달하면
+		아래의  #{id} , #{password}, #{name}, #{age}, #{tel} 코드들은
+		Member 클래스 객체가 가지고 있는 getter 메소드를 호출하여 
+		그 값을 채워넣습니다.
+		주의사항
+		만약 매개변수로 전달된 객체가 해당 이름의 getter 메소드를 제공하지 않는 경우
+		런타임 에러가 발생할 수 있습니다.
+	-->
+	<insert id="insert">
+		insert into member
+		values( #{id} , #{pw}, #{name}, 'MG02', #{addrNo},
+				#{addr}, #{tel}, #{gender}, #{email}, sysdate(),
+				0,0)
+	</insert>
+	
+	<update id="update">
+		update member
+		set name = #{name}, gender = #{gender}, addrNo = #{addrNo},
+					addr = #{addr}, tel = #{tel}, email = #{email}
+		where id = #{id}
+	</update>
+	
+	<update id="drop">
+		update member
+		set dropped = 1
+		where id = #{id}
+	</update>
+	
+	<update id="passwordUpdate">
+		update member
+		set pw = #{newPwd} 
+		where id = #{id} and pw = #{curPwd}
+	</update>
+	
+	<update id="dropUserReservationCancel">
+		update reservation
+		set isCanceled = 1
+		where id = #{id}
+	</update>
+	
+</mapper>

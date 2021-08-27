@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="spring.web.mapper.ManagementMapper">
+
+	<!-- 이곳에 접근하고자 하는 경우 namespace.id 로 접근한다. -->
+	<!-- resultType은 자바의 타입과 매핑되는 것을 작성한다. 아래의 selectOne 은 spring.web.model.Member과 매핑 -->
+	<!-- http://www.mybatis.org/mybatis-3/ko/configuration.html#typeAliases 참조 -->
+	<select id="selectCodeBigAll" resultType="spring.web.model.Management">
+		select codename as codeBig, name as nameBig  from code_big
+	</select>
+	
+	<select id="selectCodeSmallAll" resultType="spring.web.model.Management_Sub">
+		select codename_small as codeSmall, name as nameSmall  
+		from code_small
+		where codename_big = #{codeBig}
+	</select>
+	
+	<select id="selectCodeBig" resultType="spring.web.model.Management">
+		select codename as codeBig, name as nameBig  
+		from code_big
+		where codename = #{codeBig}
+	</select>
+	
+	<select id="selectCodeSmall" resultType="spring.web.model.Management">
+		select b.codename codeBig, b.name nameBig, s.codename_small codeSmall, s.name nameSmall
+		from code_big b inner join code_small s
+		on b.codename = s.codename_big
+		where s.codename_small = #{codeSmall} and s.codename_big = #{codeBig}
+	</select>
+	
+	<select id="selectMemberAll" resultType="spring.web.model.Management">
+		select m.id, m.name, m.addr, m.tel, m.gender, m.email, m.mileage, 
+		m.dropped, s.codename_small codeSmall, s.name nameSmall
+		from member m inner join code_small s
+		on m.grade = s.codename_small
+	</select>
+	
+	<select id="selectRoomAll" resultType="spring.web.model.Management">
+		select * 
+		from roomData 
+		order by roomNo
+	</select>
+	
+	<select id="selectPackageAll" resultType="spring.web.model.Management">
+		select * 
+		from packageData 
+		order by packageNo
+	</select>
+	
+	<select id="selectPackageContentsAll" resultType="spring.web.model.PackageContents">
+		select d.name, max(d.price) maxPrice, min(d.price) minPrice, 
+		d.startDate, d.endDate, c.contents
+		from packageData d inner join packageContents c on d.name = c.name
+		group by d.name
+		order by c.pNo
+	</select>
+	
+	<select id="selectPackageNameAll" resultType="spring.web.model.PackageContents">
+		select distinct name
+		from packageData
+	</select>
+	
+	<insert id="insertPackageContents">
+		insert into packageContents
+		values(null,#{name},#{contents})
+	</insert>
+	
+	<update id="updatePackageContents">
+		update packageContents
+		set name = #{name}, contents = #{contents}
+		where name = #{oldName}
+	</update>
+	
+	<update id="deletePackageContents">
+		delete from packageContents
+		where name = #{name}
+	</update>
+	
+	<select id="selectReservationAll" resultType="spring.web.model.Reservation">
+		select * 
+		from reservationData
+		order by no
+	</select>
+	
+	<select id="selectStayAll" resultType="spring.web.model.Reservation">
+		select * 
+		from stayData
+		order by no
+	</select>
+	
+	<select id="selectStayHistoryAll" resultType="spring.web.model.Reservation">
+		select * 
+		from stayHistoryData
+		order by no
+	</select>
+	
+	<select id="selectStayDeletedAll" resultType="spring.web.model.Reservation">
+		select * 
+		from stayDeletedData
+		order by no
+	</select>
+	
+	<select id="selectRoomCodeSmallAll" resultType="spring.web.model.Management_Sub">
+		select codename_small as codeSmall, name as nameSmall  from code_small
+		where codename_big = #{codeBig}
+	</select>
+	
+	<select id="selectMemberGradeAll" resultType="spring.web.model.Management_Sub">
+		select codename_small as codeSmall, name as nameSmall  from code_small
+		where codename_big = 'MG'
+	</select>
+	
+	<update id="updateCodeBig">
+		update code_big
+		set codename = #{codeBig} , name = #{nameBig}
+		where codename = #{oldCodeBig}
+	</update>
+	
+	<delete id="deleteCodeBig">
+		delete from code_big
+		where codename = #{codeBig}
+	</delete>
+	
+	<insert id="insertCodeBig">
+		insert into code_big
+		values(#{codeBig},#{nameBig})
+	</insert>
+	
+	<update id="updateCodeSmall">
+		update code_small
+		set codename_big = #{codeBig} , name = #{nameSmall} , codename_small=#{codeSmall}
+		where codename_small = #{oldCodeSmall}
+	</update>
+	
+	<delete id="deleteCodeSmall">
+		delete from code_small
+		where codename_small = #{codeSmall}
+	</delete>
+	
+	<insert id="insertCodeSmall">
+		insert into code_small
+		values(#{codeBig},#{codeSmall},#{nameSmall})
+	</insert>
+	
+	<update id="updateMember">
+		update member
+		set name = #{name} , grade = #{codeSmall} , addr = #{addr} ,
+		tel = #{tel}, gender = #{gender}, email = #{email}, mileage = #{mileage},
+		dropped = #{dropped}
+		where id = #{id}
+	</update>
+	
+	<delete id="deleteMember">
+		delete from member
+		where id = #{id}
+	</delete>
+	
+	<insert id="insertRoom">
+		insert into room
+		values('${roomNo}',#{roomGrade},#{roomLevel},#{roomType},
+				#{floor},#{price},#{roomView},#{roomSize})
+	</insert>
+	
+	<update id="updateRoom">
+		update room
+		set roomNo = '${roomNo}' , roomGrade = #{roomGrade} , roomLevel = #{roomLevel} ,
+		roomType = #{roomType}, floor = #{floor}, price = #{price}, roomView = #{roomView},
+		roomSize = #{roomSize}
+		where roomNo = '${strNo}'
+	</update>
+	
+	<delete id="deleteRoom">
+		delete from room
+		where roomNo = '${roomNo}'
+	</delete>
+	
+	<insert id="insertPackage">
+		insert into package
+		values(#{packageNo},#{name},#{roomGrade},#{roomLevel},#{roomType},
+				#{roomView},#{price},#{startDate},#{endDate})
+	</insert>
+	
+	<update id="updatePackage">
+		update package
+		set packageNo = #{packageNo} , name =#{name}, roomGrade = #{roomGrade} , roomLevel = #{roomLevel} ,
+		roomType = #{roomType}, roomView = #{roomView}, price = #{price}, startDate = #{startDate},
+		endDate = #{endDate}
+		where packageNo = #{strNo}
+	</update>
+	
+	<delete id="deletePackage">
+		delete from package
+		where packageNo = #{packageNo}
+	</delete>
+	
+	<select id="selectReservation" resultType="spring.web.model.Reservation">
+		select * from reservation
+		where no = #{no}
+	</select>
+	
+	<select id="selectStay" resultType="spring.web.model.Reservation">
+		select * from stay
+		where no = #{no}
+	</select>
+	
+	<select id="selectStayHistory" resultType="spring.web.model.Reservation">
+		select * from stayHistory
+		where no = #{no}
+	</select>
+	
+	<select id="selectStayDeleted" resultType="spring.web.model.Reservation">
+		select * from stayDeleted
+		where no = #{no}
+	</select>
+	
+	<delete id="deleteReservation">
+		delete from reservation
+		where no = #{no}
+	</delete>
+	
+	<delete id="deleteStay">
+		delete from stay
+		where no = #{no}
+	</delete>
+	
+	<delete id="deleteStayHistory">
+		delete from stayHistory
+		where no = #{no}
+	</delete>
+	
+	<delete id="deleteStayDeleted">
+		delete from stayDeleted
+		where no = #{no}
+	</delete>
+	
+	<insert id="insertReservation">
+		insert into reservation(id, roomNo, packageNo, startDate, endDate, dateCnt, 
+		addBed, adultBreakfast, childBreakfast, price, adultCnt, childCnt, memo, card,
+		cardNum, cardEndDate, isCanceled, reservationDate)
+		values( #{id} , #{roomNo}, #{packageNo}, #{startDate}, #{endDate}, #{dateCnt},
+				#{addBed}, #{adultBreakfast}, #{childBreakfast}, #{price}, #{adultCnt},
+				#{childCnt}, #{memo}, #{card}, #{cardNum}, #{cardEndDate}, #{isCanceled}, #{reservationDate})
+	</insert>
+	
+	<insert id="insertStay">
+		insert into stay(id, roomNo, packageNo, startDate, endDate, dateCnt, 
+		addBed, adultBreakfast, childBreakfast, price, adultCnt, childCnt, memo, card,
+		cardNum, cardEndDate, reservationDate)
+		values( #{id} , #{roomNo}, #{packageNo}, #{startDate}, #{endDate}, #{dateCnt},
+				#{addBed}, #{adultBreakfast}, #{childBreakfast}, #{price}, #{adultCnt},
+				#{childCnt}, #{memo}, #{card}, #{cardNum}, #{cardEndDate}, #{reservationDate})
+	</insert>
+	
+	<insert id="insertStayHistory">
+		insert into stayHistory(id, roomNo, packageNo, startDate, endDate, dateCnt, 
+		addBed, adultBreakfast, childBreakfast, price, adultCnt, childCnt, memo, card,
+		cardNum, cardEndDate, reservationDate)
+		values( #{id} , #{roomNo}, #{packageNo}, #{startDate}, #{endDate}, #{dateCnt},
+				#{addBed}, #{adultBreakfast}, #{childBreakfast}, #{price}, #{adultCnt},
+				#{childCnt}, #{memo}, #{card}, #{cardNum}, #{cardEndDate}, #{reservationDate})
+	</insert>
+	
+	<insert id="insertStayDeleted">
+		insert into stayDeleted(id, roomNo, packageNo, startDate, endDate, dateCnt, 
+		addBed, adultBreakfast, childBreakfast, price, adultCnt, childCnt, memo, card,
+		cardNum, cardEndDate, isCanceled, reservationDate, beforeTable)
+		values( #{id} , #{roomNo}, #{packageNo}, #{startDate}, #{endDate}, #{dateCnt},
+				#{addBed}, #{adultBreakfast}, #{childBreakfast}, #{price}, #{adultCnt},
+				#{childCnt}, #{memo}, #{card}, #{cardNum}, #{cardEndDate}, #{isCanceled}, #{reservationDate},
+				#{beforeTable})
+	</insert>
+
+	
+</mapper>

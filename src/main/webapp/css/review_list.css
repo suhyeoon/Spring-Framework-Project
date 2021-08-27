@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+table{
+	width:850px;
+	text-align:center;
+}
+
+#td1{
+	width:50px;
+	height:30px;
+}
+#td2{
+	width:120px;
+	height:30px;
+}
+#td3{
+	width:400px;
+	height:30px;
+}
+#td{
+	height:50px;
+}
+
+#write{
+	margin-top:10px;
+	width:850px;
+	text-align:right;
+}
+
+
+

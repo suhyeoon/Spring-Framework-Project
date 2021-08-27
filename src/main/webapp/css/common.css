@@ -1,0 +1,289 @@
+@CHARSET "UTF-8";
+
+body{margin:0; padding:0; overflow-x:hidden;}
+
+#top_bg{
+	width:100%;
+	height:100px;
+	background-color:#F1E3C4;
+}
+#top{ 
+    width:1300px;
+   	height:100px;
+   	position:relative;
+   	margin:0 auto 0 auto;
+   	background-color:#F1E3C4;
+    }
+    
+#title{
+	width:300px;
+	margin:0 auto;
+}
+
+#login{
+	margin-top:10px;
+	float:right;
+	width:450px;
+	height:60px;
+}
+#top h1 { 
+		font-family:'a제우스.TTF';
+		font-weight:bold;
+		margin:10px auto;
+		padding:0;
+		display:table;
+		text-decoration:none;
+		float:left;
+		left:50%;
+		line-height:80%;	
+}
+
+#top h1 a b{
+	margin-top:-100px;
+	font-size:10pt;
+}
+
+
+@font-face{
+	font-family:'a제우스';
+	src:url(fonts/A제우스.TTF);
+}
+
+#top h1 a{
+		font-family:'a제우스';
+		color:#3C1600;
+		text-decoration:none;
+		display:block;
+		left:50%;
+}
+
+.top_Menu{
+	margin:0;
+	padding: 0;
+	height:60px;
+	list-style: none;
+}
+
+.menu_li{
+		font-family:A삐리삐리;
+		width:110px;
+		height:40px;
+		list-style:none;
+		float:left;
+		line-height:30px;
+		position:relative;
+}
+.top_menu_a{
+	font-family:A삐리삐리;
+	text-align: center;
+	text-decoration:none;
+	color:#695b4b;
+	display:block;
+	font-size:12pt;
+	font-weight:bold;
+}
+.top_menu_a:hover{color:black;}
+
+.masterMenu{
+	visibility:hidden;
+	margin-top:5px;
+	margin-left:-250px;
+	width:600px;
+	height:40px;
+}
+
+.myPageMenu{
+	visibility:hidden;
+	margin-top:5px;
+	margin-left:-135px;
+	width:600px;
+	height:40px;
+}
+
+.masterSub{
+	list-style:none;
+	width:80px;
+	line-height:30px;
+	float: left;
+}
+.myPageSub{
+	list-style:none;
+	width:100px;
+	line-height:30px;
+	float: left;
+}
+
+.subMenu_a{
+	display:block;
+	line-height:30px;
+	text-align:center;
+	text-decoration:none;
+	font-size:10pt;
+	color: #6f5e4b;
+    font-weight: bold;
+}
+
+#top ul li:hover > ul{
+	visibility:visible;
+}
+.subMenu_a:hover{
+	font-weight:bolder;
+	color:#342700;
+}
+@font-face{
+	font-family:'A삐리삐리';
+	src:url(fonts/A삐리삐리.TTF);
+}
+
+#Menu_outline{
+	position:static;
+	height:50px;
+	background-color: #543900;
+}
+#Menu {
+            height: 50px;  
+            width: 920px;       /* [변경] 하위 메뉴와 동일하게 맞춤 */
+            position: static;
+            margin:0 auto;
+            background-color: #543900; /* [추가] 늘어난만큼 배경색도 보이도록 수정 */
+    }
+    
+    .MenuUl{
+    	list-style-type: none;  
+        margin: 0px;            
+        padding: 0px; 
+        position: relative;    
+    }
+    #Menu ul li {            /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */
+        color: white;               
+        background-color: #543900;
+        line-height:50px;  
+        float: left;                         
+        vertical-align: middle;     
+        text-align: center;         
+        -position: relative;        
+    }
+    #Menu ul li ul{
+    	
+    	background-color: #DDD;
+    }
+    #Menu ul li ul li{
+    	line-height:40px;
+    }
+    #Menu ul .menuLi{
+    	line-height:50px;
+    }
+    .menuLink, .submenuLink {           /* 상위 메뉴와 하위 메뉴의 a 태그에 공통으로 설정할 스타일 */
+        text-decoration:none;  	              
+        display: block;                     
+        width: 150px;                                           
+        font-weight: bold;                  
+        font-family: "Trebuchet MS", Dotum; 
+    }
+    .menuLink {     /* 상위 메뉴의 글씨색을 흰색으로 설정 */
+    	font-size:15px;
+        color: #BDBDBD;
+        position: relative;
+    }
+    .MenuLi:hover .menuLink {    /* 상위 메뉴의 li에 마우스오버 되었을 때 스타일 설정 */
+        color: white;                 
+        background-color: #9C8136;
+    }
+    .longLink {     /* 좀 더 긴 메뉴 스타일 설정 */
+        width: 150px;   
+    }
+.submenuLink {          /* 하위 메뉴의 a 태그 스타일 설정 */
+        color: #2d2d2d; 
+        font-size:12px;            
+        background-color: #DDD;      /* [변경] 배경색 변경 */
+        -border: solid 1px black;    /* [삭제] 테두리 삭제 */
+        -margin-right: -1px;         /* [삭제] 공백 보정 삭제 */
+        -webkit-transition: 0.5s;
+     	-moz-transition: 0.5s;
+     	-o-transition: 0.5s;
+     	-ms-transition: 0.5s;
+     	transition: 0.5s;
+    }
+    .submenu {              /* 하위 메뉴 스타일 설정 */
+        position: absolute;     
+        height: 0px;            
+        overflow:hidden;       
+        transition: height .2s; 
+        -webkit-transition: height .2s; 
+        -moz-transition: height .2s; 
+        -o-transition: height .2s;
+        padding-left:40px;
+        left:-30%; 
+        width:920px;                     
+        background-color: #DDD; /* [추가] 하위 메뉴 전체에 배경색 설정 */
+    }
+    
+    .submenu li {
+        display: inline-block;
+        line-height:40px;
+    }
+    
+    
+
+    .MenuLi:hover .submenu {
+    	vertical-align:middle; 
+        height: 40px;
+                   
+    }
+    .submenuLink:hover {        
+        color: red;                 
+        background-color: #dddddd;
+        color: #fff;
+    	text-shadow: -1px 1px 5px #03c, 1px -1px 5px #03c;  
+    }
+#sub_outline{
+	height:40px;
+	width:100%;
+	background-color: #DDD;
+}
+.sub2{
+	left:-5%;
+}
+.sub3{
+	left:13%;
+}
+.sub4{
+	left:14%;
+}
+.sub5{
+	left:38%;
+}
+.sub6{
+	left:55%;
+}
+
+#fotter{
+	width:1300px;
+	height:80px;
+	margin:0 auto;
+	padding-top:50px;
+}
+
+#fotter ul{
+	margin:0 auto;
+	padding:0;
+	width:850px;
+	height:50px;
+	list-style:none;
+	text-decoration:none;
+	vertical-align:middle;
+}
+#fotter ul li{
+	list-style:none;
+	float:left;
+	color:black;
+}
+
+#fotter ul li a{
+	text-decoration:none;
+ 	display:block;
+ 	text-align:center;
+ 	width:200px;
+ 	height:30px;
+ 	color:#5D5D5D;
+}

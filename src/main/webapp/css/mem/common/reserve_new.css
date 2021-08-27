@@ -1,0 +1,189 @@
+/* CSS Document */
+/*ë ˆì €ë² ì´ì…˜ owsì—°ê³„ë¡œ ì¸í•œ htmlë³€ê²½*/
+dd.item5 div.selector { width:251px!important; margin-bottom:6px;}
+dd.item5 div.selector span {width: 216px!important;}
+input.W152{width:152px!important;}
+input.W156{width:235px!important; padding-left:10px;}
+input.W113{width:113px!important;} 
+.TL{text-align:left!important; padding-left:42px!important;}
+.TR{text-align:right!important; padding-right:42px!important;}
+.mgb20{margin-bottom:20px!important;}
+.mgt30{margin-top:30px;}
+.P9{margin:9px 0px;}
+
+input[placeholder], [placeholder], *[placeholder] {color:#1b1b1b;}
+
+.selForm label.date4 { background: url("../../../images/ko/mem/reservation/reserveStepDateBoxATh1.gif") no-repeat scroll 0 -124px transparent; display: inline-block; height: 27px;line-height: 100px; overflow: hidden; vertical-align: middle;    width: 190px;}
+.ctnReserve .dateBoxC .hBox .selRoom {padding: 34px 0 0;}
+.btnS_1Confirm{background: url("../../../images/ko/mem/reservation/reserveStep1BtnConfirm.gif") no-repeat scroll 0 0 transparent; display: inline-block; height: 27px; line-height: 100px;overflow: hidden; vertical-align: middle;  width: 81px;}
+.hrOptRoom { border-top:none; padding: 0 0 20px;}
+
+/*ì˜ˆì•½*/
+
+/*20150611 start*/
+.reserveStep li.t1 span {background-position: 0 0; width: 240px!important;}
+.reserveStep li.t2 span {background-position: -241px 0px!important; width: 240px!important;}
+.reserveStep li.t3 span {background-position: -481px 0px!important; width: 240px!important;}
+.reserveStep li.t4 span {background-position: -721px 0px!important;width: 240px!important;}
+.reserveStep li.t5 span {background-position: -961px 0px!important;width: 240px!important;}
+.reserveStep {height: 76px; margin: 0 0 0px; width: 1202px!important;}
+/*20150611 end*/
+
+.reserveInfoBox .rBox4 .rTit .tit span { background: url("../../../images/ko/mem/reservation/reserveStepTit1depth.gif") no-repeat scroll 0 -61px transparent; display: inline-block; height: 18px; line-height: 100px; overflow: hidden; vertical-align: middle;}
+.reserveInfoBox .rBox4 .list li .tit { display: inline-block; float: left; height: 18px; width: 190px; font-size:11px;}
+.reserveInfoBox .rBox4 .list li.opt1 .tit { background-position: 0 0;}
+.reserveInfoBox .rBox4 .list li.opt2 .tit { background-position: 0 -20px;}
+.reserveInfoBox .rBox4 .list li.opt3 .tit { background-position: 0 -40px;}
+.reserveInfoBox .rBox4 .list li {overflow: hidden;}
+.reserveInfoBox .rBox4 .list li .num {float: right;}
+.reserveInfoBox .rBox4 div {height: 13px; margin: 0 0 4px;overflow: hidden;}
+.reserveInfoBox .rBox4 div .Room { background: url("../../../images/ko/mem/reservation/reserveStepTitRoom.gif") ;display: inline-block;float: left;    height: 18px;    line-height: 100px;    overflow: hidden;   width: 50px;}
+.reserveInfoBox .rBox4 div .Room1 {  background-position: 0 0;}
+.reserveInfoBox .rBox4 div .Room2 {  background-position: 0 -20px;}
+.reserveInfoBox .rBox4 ul.list{padding-bottom:10px;}
+
+.ctnReserve .miceBoxTop .Mice{width:585px;}
+/*20150611 start*/
+.ctnReserve .dateBoxC .selRoomOpt{ float:left; width:700px!important; padding:7px 0 7px 20px;}
+/*20150611 end*/
+.ctnReserve .dateBoxC .selRoomOpt dl {float: left; margin: 0 73px 0 0!important; width: 160px!important;}
+.ctnReserve .tableTypeC thead tr {border: 1px solid #ECEAE1;}
+.ctnReserve .tableTypeC thead th{border:none;}
+.ctnReserve .tableTypeC{ margin:20px 0 0 0; width: 100%; border-collapse:collapse; table-layout:fixed;}
+.ctnReserve .tableTypeC thead th {height: 11px; background: #faf9f7; vertical-align: top; line-height: 100%; }
+.ctnReserve .tableTypeC thead th.bdL { border-left: 1px solid #eceae1; }
+.ctnReserve .tableTypeC thead th img { vertical-align: top; line-height: 100%; }
+.ctnReserve .tableTypeC tbody th img { vertical-align: top; line-height: 100%; }
+.ctnReserve .tableTypeC tbody th { border-right: 1px solid #eceae1; border-left: 1px solid #eceae1; border-bottom: 1px solid #eceae1; height: 43px; padding: 0 0 0 15px; text-align: left; background: #faf9f7; line-height: 100%; vertical-align: middle; }
+.ctnReserve .tableTypeC tbody td.left { text-align:left !important; padding:7px 0 6px 10px !important; }
+.ctnReserve .tableTypeC.tableAccSatellite thead th {background: none repeat scroll 0 0 #Fff; padding: 8px 0;color:#444444;}
+.ctnReserve .tableTypeC.tableAccSatellite tbody td {background: none repeat scroll 0 0 #FDF8EF; border:none; height: 23px;text-align: center;}
+.ctnReserve .tableTypeC.tableAccSatellite tbody td.TaL{padding-left:20px!important; text-align: left!important;}
+.ctnReserve .tableTypeC.tableAccSatellite .line{border-bottom:1px solid #E6DCCA}
+.ctnReserve .tableTypeC.tableAccSatellite .bold{font-weight: bold; color:#7e4f15}
+.ctnReserve .tableTypeC.tableAccSatellite{ margin:0; }
+.ctnReserve .tableTypeC.tableAccSatellite tr .bdrN { border-right: 0 !important; }
+.ctnReserve .tableTypeC.tableAccSatellite tbody th { height: auto; border-left: none; background: #f8f8f8; font-weight: bold; text-align: center; padding: 8px 0; color: #888; }
+.ctnReserve .roomList .rBox .rCtn .info .priceBox .priceScroll.new { max-height: 376px !important;}
+
+.ctnReserve1 .reserveInfoBox .rBox {padding: 8px 0; background: none!important;}
+.ctnReserve1 .reserveInfo {background:#f4eee3; border: 1px solid #ede5d8; padding: 19px 21px 50px;}
+.ctnReserve1 .rsvJejuGuide ul { overflow: hidden;float: left}
+.ctnReserve1 .rsvJejuGuide ul li {width: 410px; float:none}
+
+.ctnReserve2 .rsvJejuGuide ul { overflow: hidden;float: left}
+.ctnReserve2 .rsvJejuGuide ul li {width: 410px; float:none}
+
+/*20150616 ì•„ëž˜ë‚´ìš© ì£¼ì„ê±¸ì–´ ì—†ì• ì£¼ì‹œêµ¬ìš”. ê·¸ ì•„ëž˜êº¼ ë³µì‚¬í•´ ì£¼ì„¸ìš”*/
+/*.ctnReserve1 .rsvJejuGuide {height:70px;}*/
+.rsvJejuGuide:before, .rsvJejuGuide:after {
+	display: table;
+	content:"";
+}
+.rsvJejuGuide:after {
+	clear: both;
+}
+
+/*20150616 ì•„ëž˜ë‚´ìš© ì£¼ì„ê±¸ì–´ ì—†ì• ì£¼ì‹œêµ¬ìš”. ê·¸ ì•„ëž˜êº¼ ë³µì‚¬í•´ ì£¼ì„¸ìš” ~ë*/
+
+.ctnReserve1 .dateBoxA .item5 label.date5  ,
+.ctnReserve1 .dateBoxA .item5 label.date6  { left: -9999%;  position: absolute;}
+.ctnReserve1 .dateBoxA .item5 .date5 {background:url("../../../images/ko/mem/reservation/BgText.png") no-repeat  2px -30px; margin: 0;    width: 208px; background-color: #fff;}
+.ctnReserve1 .dateBoxA .item5 .date6 {background: url("../../../images/ko/mem/reservation/BgText.png") no-repeat  2px 0px; margin: 0;    width: 208px;background-color: #fff;}
+.ctnReserve1 .dateBoxA .item5 .focus{background-image:none}
+.ctnReserve1 .dateBoxA .item6 .focus{background-image:none}
+
+.ctnReserve2 td .btnSelBed { background: url("../../../images/ko/mem/reservation/reserveStep2BtnSelBed.gif") no-repeat scroll 0 0 transparent;display: inline-block; height: 27px; line-height: 100px; overflow: hidden; position: absolute; right: 8px; vertical-align: middle; width: 59px; margin-top:-14px }
+.ctnReserve2 td a:hover,
+.ctnReserve2 td a:focus{background: url("../../../images/ko/mem/reservation/reserveStep2BtnSelBed_over.gif") no-repeat scroll 0 0 transparent;}
+
+.ctnReserve2Opt .hrOptRoom p{ color: #7E4F15;}
+.ctnReserve2Opt .btnList .btnOptSel { background: url("../../../images/ko/mem/reservation/reserveStep2DayBtnPrev.gif") no-repeat scroll 0 0 transparent;display: inline-block; height: 41px; line-height: 100px; overflow: hidden;vertical-align: middle; width: 142px;}
+.ctnReserve2Opt .headTit .tit {background: url("../../../images/ko/mem/reservation/reserveStep2Tit1Opt.gif") no-repeat 0px 23px;    line-height: 100px;    overflow: hidden;    width: 400px;}
+.ctnReserve2Opt .roomOptWrap .bbsAddonTable th, .roomOptWrap .bbsAddonTable td {-moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-color: -moz-use-text-color -moz-use-text-color #ECEAE1; border-image: none; border-style: none none solid; border-width: medium medium 1px; color: #1B1B1B; height: 38px; line-height: 16px; text-align: center;padding:0px;}
+
+.ctnReserve3 .roomUserWrap .tableReserveInfo1 label.firstNameEn {margin:0px!important;}
+.ctnReserve3 .roomUserWrap textarea{width:834px;}
+.ctnReserve3 .reserveStep3Box .msg {  display: block;    padding: 6px 0 0;}
+.ctnReserve3 .reserveInfoBox .rBox3 {   background: url("../../../images/ko/mem/reservation/reserveInfoBoxDotLine.gif") repeat-x scroll 0 bottom transparent; padding: 8px 0;}
+.ctnReserve3 .reserveInfoBox .rBox4 {   background: none!important;}
+.ctnReserve3 .phoneNum div.selector { width:48px!important; font-size: 12px;}
+.ctnReserve3 .phoneNum div.selector span { color: #1B1B1B; width:22px!important;}
+.ctnReserve3 .phoneNum input.text{width:40px;}
+
+.ctnReserve4 .topGuideMsg { height:109px; }
+.ctnReserve4 .topGuideMsg .msg2 {color: #856F56;text-align: center; width: 100%;}
+.ctnReserve4 .rsvDetInfoBox{border-top: 3px solid #A1886F; margin:0;}
+.ctnReserve4 .rsvDetInfoBox .item .dt{ height:12px; width:85px; vertical-align:middle; display:inline-block; }
+.ctnReserve4 .rsvDetInfoBox .item .dd{ height:27px; line-height:29px; vertical-align:middle; display:inline-block;}
+.ctnReserve4 .rsvDetInfoBox .item1 .dt{width:85px;background: none!important;line-height: 0px!important;}
+.ctnReserve4 .rsvDetInfoBox .item2 .dt {width:85x;background: none!important;line-height: 0px!important;}
+.ctnReserve4 .rsvDetInfoBox .item3 .dt {width:85px;background: none!important;line-height: 0px!important;}
+.ctnReserve4 .rsvDetInfoBox .item4 .dt {width:85px;background: none!important;line-height: 0px!important;}
+.ctnReserve4 .rsvDetInfoBox .item {background: none;}
+.ctnReserve4 .rsvDetInfoBox .item .dd {display: inline-block; height: 27px; line-height: 29px; vertical-align: middle;width: 520px;}
+.ctnReserve4 .rsvDetInfoBox .item .dd2 {display: inline-block; height: 27px; line-height: 29px; vertical-align: middle;width: 100px;}
+.ctnReserve4 .rsvDetInfoBox .item .dd3 {display: inline-block; height: 27px; line-height: 29px; vertical-align: middle;width: 270px;}
+.ctnReserve4 .rsvDetInfoBox_B{background-color:#faf9f4;}
+.ctnReserve4 .rsvDetInfoBox_B .Booking1 {line-height: 25px;}
+.ctnReserve4 .rsvDetInfoBox_B .Booking .dt { display: inline-block;  vertical-align: middle; color:#666666; font-weight: bold;} 
+.ctnReserve4 .rsvDetInfoBox_B .Booking1 .dt {width: 54px;}
+.ctnReserve4 .rsvDetInfoBox_B .Booking2 .dt {width: 73px;}
+.ctnReserve4 .rsvDetInfoBox_B .Booking  { margin: 0 0 0 30px;  padding: 0 30px 0 0; width: 352px;background: none;}
+.ctnReserve4 .rsvDetInfoBox_B .Booking .dd {display: inline-block; vertical-align: middle;width: 232px;}
+.ctnReserve4 .rsvDetInfoBox_B .Booking .dd2 {display: inline-block;vertical-align: middle;width: 301px;}
+.ctnReserve4 .rsvDetInfoBox_B .box {padding: 10px 20px 10px 0;}
+.ctnReserve4 .roomComWrap { border: 1px solid #E3D6C7;    margin-bottom: 20px;}
+.ctnReserve4 .roomComWrap .headTit .tit {display: inline-block; height: 27px;vertical-align: middle;width: 70px;background: none!important;line-height: 0px;}
+.ctnReserve4 .roomComWrap .headTit .bookingNumber{font-size:15px;color:#666666; font-weight: bold;}
+ 
+.ctnReserve4 .roomPriceWrap .bbsPriceTable th,
+.ctnReserve4 .roomPriceWrap .bbsPriceTable td{ border:none; border-bottom:#eceae1 solid 1px; padding:5px 10px 5px 10px; text-align:center; line-height:16px; color:#1b1b1b}
+.ctnReserve4 .roomPriceWrap .bbsPriceTable tr.last td{ border-bottom:none;}
+.ctnReserve4 .roomPriceWrap .bbsPriceTable th{ border-bottom:#cdcbbe solid 1px; font-weight:bold; color:#666666; padding:13px 10px 13px; line-height:17px;  background:#faf9f4; white-space:nowrap;}
+.ctnReserve4 .roomPriceWrap .bbsPriceTable td.price {font-weight:bold; padding-right: 30px;  text-align: right;}
+.ctnReserve4 .roomPriceWrap .msg { color: #7E4F15;margin-top:5px;}
+.ctnReserve4 .roomComWrap .btnPrint {background: url("../../../images/ko/mem/reservation/reserveStep4BtnPrint.gif") no-repeat scroll 0 0 transparent;display: inline-block;height: 27px; line-height: 100px; margin: -4px 0 0;overflow: hidden; vertical-align: middle; width: 63px;}
+.ctnReserve4 .info { display: block;   float: right; margin-top:9px;}
+
+.roomPriceWrap .priceWrap .priceBox .list li.rprice .dt{font-size:14px; font-weight:bold; min-width:150px; margin:0 20px 0 0; color:#584a3b; text-align:right; display:inline-block; vertical-align:middle;}
+.roomPriceWrap .priceWrap .priceBox .list li.rprice .dd{font-size:14px; font-weight:bold; min-width:110px; color:#584a3b; text-align:right; display:inline-block; vertical-align:middle;}
+.roomList .rBox .rCtn .info .priceBox .detailBox .dHead .icoPack {background: url("../../../images/ko/mem/reservation/reserveStep2IcoRoom.gif") no-repeat scroll 0 0 transparent;}
+.roomList .rBox .rCtn .info .priceBox {background: none repeat scroll 0 0 #FDF8EF; border: 1px solid #856f56; display: none; min-height: 120px; position: absolute;right: 1px; top: 122px;width: 403px;}/*2013.10.28ìˆ˜ì •*/
+.roomOptWrap .rOptHeadTop p{float: left;  height: 13px; width: 209px;}
+.roomOptWrap .rOptHeadTop { margin: 0 0 20px; border:none;}
+.roomOptWrap .hRoomOptTit1{ border-bottom: 3px solid #A78F77;    height: 30px; }
+.roomOptWrap .hRoomOptTit1 .msg{ background-image:url(../../../images/ko/mem/reservation/reserveStep2DayMsg1.gif);float:right;width:285px; margin-top:-41px;}
+.roomOptWrap .hRoomOptTit1 .tit2 { background: url("../../../images/ko/mem/reservation/reserveStep2DayTit1.gif") no-repeat scroll 0 0 transparent;   line-height: 100px; height:35px; overflow: hidden;}
+.roomOptWrap .rmRsvWrap {}
+.roomOptWrap .bbsPriceTable tfoot .fTr{ border-top:2px solid #A1886F; } 
+.roomCateBox .hRoomTit1 .tit { background: url("../../../images/ko/mem/reservation/reserveStep2TitRoom.gif") no-repeat scroll 0 0 transparent;}
+.rprice_1 .dt{font-size:14px!important; font-weight:bold!important;}
+.rprice_1 .dd{font-size:14px!important; font-weight:bold!important;}
+
+
+.titst01 {background: url("../../../images/ko/mem/reservation/reserveStepOptRoom.gif") no-repeat scroll 0 0 transparent;    height: 22px;    line-height: 100px;    overflow: hidden;  margin-top: 35px; }
+.titst02 {background: url("../../../images/ko/mem/reservation/reserveStepOptRoom.gif") no-repeat scroll 0 -18px transparent; height: 22px;    line-height: 100px;    overflow: hidden;  margin-top: 20px;}
+.titst03 {background: url("../../../images/ko/mem/reservation/reserveStepOptRoom.gif") no-repeat scroll 0 -36px transparent; height: 22px;    line-height: 100px;    overflow: hidden;  margin-top: 20px;}
+
+.popLayerAccSatellite_seoul .askTxt { width: 91px; height:11px; display:block; margin-top: 10px; overflow: hidden; text-indent:-9999%; background:url('../../../../images/ko/mem/accommodation/AccSatelliteTxt.gif') 0 0 no-repeat; }
+ 
+ 
+.gnbReservationBox .dateBoxA .selForm .itemMice .btnMice{width:180px!important;}
+.gnbReservationBox .dateBoxA .selForm .itemMice input.miceCode1,
+.gnbReservationBox .dateBoxA .selForm .itemMice input.miceCode2{width: 90px; height:20px;padding:0px!important;}
+.gnbReservationBox .dateBoxA .selForm .itemMice input.miceCode{width:90px!important;}
+.gnbReservationBox div.selector { height: 23px; line-height: 23px;  width: 123px !important; background-color:#f1ebd6;}
+.gnbReservationBox div.selector span {width:103px!important;}
+.gnbReservationBox .groupCodeBox .itemMice label,
+.gnbReservationBox .dateBoxA .itemMice label { left: -9999%;  position: absolute;}
+.gnbReservationBox .groupCodeBox .miceCode1,.gnbReservationBox .groupCodeBox .miceCode,
+.gnbReservationBox .dateBoxA .miceCode1,.gnbReservationBox .dateBoxA .miceCode {background: url("../../../images/en/mem/reservation/BgText.png") no-repeat  2px -32px;  margin: 0;    width: 208px;background-color: #F1EBD6}
+.gnbReservationBox .groupCodeBox .miceCode2,
+.gnbReservationBox .dateBoxA .miceCode2 {background: url("../../../images/en/mem/reservation/BgText.png") no-repeat  2px 0px; margin: 0;    width: 208px; background-color: #F1EBD6}
+.gnbReservationBox .groupCodeBox .focus,
+.gnbReservationBox .dateBoxA .focus{ background-image:none; background-color: #F1EBD6}
+.gnbReservationBox .groupCodeBox .miceCode1 .focus, 
+.gnbReservationBox .groupCodeBox .miceCode .focus, 
+.gnbReservationBox .dateBoxA .miceCode1 .focus, 
+.gnbReservationBox .dateBoxA .miceCode .focus{ background-image:none; background-color: #F1EBD6}

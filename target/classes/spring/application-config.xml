@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <!-- Uncomment and add your base-package here:
+         <context:component-scan
+            base-package="org.springframework.samples.service"/>  -->
+	<!-- JDBC의 연결을 처리하는 기능을 가진 DataSource -->
+	<bean id="dataSource"
+		class="org.apache.commons.dbcp2.BasicDataSource">		
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://localhost:3306/resort"/>
+		<property name="username" value="root"/>
+		<property name="password" value="SystemManager"/>
+	</bean>
+
+	<!-- SqlSessionFactoryBean 생성 -->
+	<!-- 데이터베이스에 접속할 수 있는 커넥션 객체의 생성 및 SQL의 실행을 담당하는 객체를 생성 -->
+	<bean id="sqlSessionFactory" 
+		class="org.mybatis.spring.SqlSessionFactoryBean">
+ 		<!-- mybatis-config.xml 파일이 스프링이 동작할 때 같이 동작하도록 설정한 것. -->
+		<property name="configLocation" 
+			value="classpath:spring/mybatis-config.xml"/>
+		<property name="dataSource" ref="dataSource"/>
+		<property name="mapperLocations" 
+			value="classpath:mappers/**/*.xml"/>
+	</bean>
+
+	<!-- sqlSession 을 SqlSessionTemplate으로 만든다. -->
+	<!-- 
+		기본적인 트랜잭션을 관리하고 DB와의 연결 및 종료를 담당하는 객체를 생성
+		(DAO 클래스에서 JDBC와 관련된 객체에 close 메소드를 사용할 필요가 없어짐  
+	-->
+	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg index="0" ref="sqlSessionFactory" />
+	</bean>
+</beans>
